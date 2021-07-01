@@ -33,11 +33,7 @@ body {
 	border-style: None;
 	font-size: 23px;
 }
-/* on click */
-.menubutton:active {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
-}
+
 
 
 
