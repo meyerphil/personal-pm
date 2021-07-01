@@ -16,16 +16,23 @@
 	</div>
 	
 	<div class="navbar">
-		<a href="index.html">Home</a>
-		<a href="#">Projects</a>
-		<a href="about.html">About Me</a>
-		<a href="#">Link</a>
-		<a href="#" class="right">Link</a>
+	
+		<button class = "menuButton" onclick = "toggleMenu()">&#9776;</button>
+		
+		<a href="index.html" class = "home">&#8962;</a>
+		
+		<div id = "menu">
+			<a href="#">Projects</a>
+			<a href="about.html">About Me</a>
+			<a href="#">Link</a>
+			<a href="#" class="right">Link</a>
+		</div>
+		
 	</div>
 		
 
 		
-	<div style="display: table; height: 400px; overflow: hidden; background-color:gray; padding-bottom:20px">
+	<div class = "imageTextBox">
 		<img class = "imageL" src = "images/me.jpg">
 		<center>Me :)</center>
 		<p class = "text" >
@@ -37,7 +44,7 @@
 	<span style="display:inline-block; height: 10px;"></span>
 		
 		
-	<div style="display: table; height: 400px; overflow: hidden; background-color:gray; padding-bottom:20px">
+	<div class = "imageTextBox">
 		<p class = "text" >
 			I have a twin brother named Dallas. Me and him do everything together, even down to the same degree and classes. Excited to see what cool stuff we can create in the near future.
 		</p>
@@ -47,7 +54,7 @@
 		
 	<span style="display:inline-block; height: 10px;"></span>
 		
-	<div style="display: table; height: 400px; overflow: hidden; background-color:gray; padding-bottom:20px">
+	<div class = "imageTextBox">
 		<img class = "imageL" src = "images/kit.jpg">
 		<center>Raspberry Pi laptop with electronic hardware attached</center>
 		<p class = "text">
@@ -58,6 +65,9 @@
 		<p>
 		I appreciate the opportunities given to me, thank you to those who believe in me.
 		</p>
-
+	
+	
+	<script src = "scripts/main.js"></script>
+	
 	</body>
 </html>

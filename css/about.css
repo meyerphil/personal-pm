@@ -26,6 +26,14 @@ body {
 	padding: 20px;
 	font-size: 30px;
  }
+ 
+ .imageTextBox {
+	display: table; 
+	height: 400px; 
+	overflow: hidden; 
+	background-color:#e4e4e4; 
+	padding-bottom:20px;
+ }
 
 @media screen and (max-width: 700px) {
   .imageL {

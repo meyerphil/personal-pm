@@ -7,7 +7,7 @@ body {
 .header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
-  background: #1abc9c; /* green background */
+  background: #fbff00; /* yellow background */
   color: white; /* white text color */
 
   background-image: url('../images/building.jpg');
@@ -23,13 +23,23 @@ body {
 
 
 
+.menuButton {
+	float: left; /* Make sure that the links stay side-by-side */
+	color: white; /* White text color */
+	text-align: center; /* Center the text */
+	padding: 7px 17px; /* Add some padding */
+	background-color: #2d2d2d; /* Dark background color */
+	display: None;
+	border-style: None;
+	font-size: 23px;
+}
 
 
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  background-color: #2d2d2d; /* Dark background color */
   position: sticky;
   top: 0;
   
@@ -79,7 +89,7 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%; /* Set the width of the sidebar */
-  background-color: #f1f1f1; /* Grey background color */
+  background-color: #e4e4e4; /* Grey background color */
   padding: 20px; /* Some padding */
 }
 
@@ -104,7 +114,7 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .navbar a {
     float: none;
     width: 100%;
@@ -112,6 +122,20 @@ body {
 
   .main {
     font-size: 30px;
+  }
+  
+  .navbar div {
+	max-height:0px;
+	overflow:hidden;
+	transition:0.5s;
+  }
+  
+  .menuButton {
+	  display: block;
+  }
+  
+  .home {
+	  padding-right: 57px !important;
   }
 }
 
@@ -121,5 +145,5 @@ body {
 .footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  background: #e4e4e4; /* Grey background */
 }
