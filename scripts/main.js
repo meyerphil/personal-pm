@@ -3,10 +3,10 @@ function toggleMenu() {
 
     if(x.style.maxHeight === "0px"){
         x.style.maxHeight = "300px";
-	document.getElementById("mb").innerHTML = "&#10006;";
+	document.getElementById("mb").innerHTML = "OPEN";
     }else{
         x.style.maxHeight = "0px";
-	document.getElementById("mb").innerHTML = "&#9776;";
+	document.getElementById("mb").innerHTML = "CLOSE";
     }
 
 }
