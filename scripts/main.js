@@ -3,10 +3,13 @@ function toggleMenu() {
 
     if(x.style.maxHeight === "0px"){
         x.style.maxHeight = "300px";
-	document.getElementById("mb").innerHTML = "OPEN";
+		document.getElementById("mClose").style.display = "block";
+		document.getElementById("mOpen").style.display = "none";
+		document.getElementById("mOpen").innerHTML = "x";
     }else{
         x.style.maxHeight = "0px";
-	document.getElementById("mb").innerHTML = "CLOSE";
+		document.getElementById("mOpen").style.display = "block";
+		document.getElementById("mClose").style.display = "none";
     }
 
 }
