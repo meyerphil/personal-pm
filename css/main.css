@@ -23,7 +23,7 @@ body {
 
 
 
-.menuB {
+.menubutton {
 	float: left; /* Make sure that the links stay side-by-side */
 	color: white; /* White text color */
 	text-align: center; /* Center the text */
@@ -34,7 +34,7 @@ body {
 	font-size: 23px;
 }
 /* on click */
-.menuB:active {
+.menubutton:active {
   background-color: #ddd; /* Grey background color */
   color: black; /* Black text color */
 }
@@ -135,7 +135,7 @@ body {
 	transition:0.5s;
   }
   
-  .menuB {
+  .menubutton {
 	  display: block;
   }
   
