@@ -27,7 +27,7 @@ body {
 	float: left; /* Make sure that the links stay side-by-side */
 	color: white; /* White text color */
 	text-align: center; /* Center the text */
-	padding: 7px 17px; /* Add some padding */
+	padding: 6px 17px; /* Add some padding */
 	background-color: #2d2d2d; /* Dark background color */
 	display: None;
 	border-style: None;
@@ -66,11 +66,6 @@ body {
 .navbar a:hover {
   background-color: #ddd; /* Grey background color */
   color: black; /* Black text color */
-}
-
-
-.home {
-	font-size:20px;
 }
 
 
@@ -138,8 +133,7 @@ body {
   }
   
   .home {
-	  padding-right: 57px !important;
-	  font-size: 25px;
+	  padding-right: 56px !important;
   }
 }
 
