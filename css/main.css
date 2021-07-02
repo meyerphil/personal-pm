@@ -31,7 +31,7 @@ body {
 	background-color: #2d2d2d; /* Dark background color */
 	display: None;
 	border-style: None;
-	font-size: 23px;
+	font-size: 30px;
 }
 
 
@@ -137,6 +137,7 @@ body {
   
   .home {
 	  padding-right: 57px !important;
+	  font-size: 20px;
   }
 }
 
