@@ -1,0 +1,24 @@
+ .projectBox {
+	float: left;
+	display: table; 
+	height: 400px; 
+	overflow: hidden; 
+	background-color:#e4e4e4; 
+	padding-bottom:20px;
+ }
+ 
+ .projectImage {
+	float: center;
+	width: 70%;
+	width:300px;
+    height:300px;
+    object-fit:cover;
+	margin-left: auto;
+  	margin-right: auto;
+	padding:10px
+ }
+ 
+ .projectText {
+	display: block; 
+	font-size: 20px;
+ }
