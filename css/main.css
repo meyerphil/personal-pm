@@ -130,11 +130,14 @@ body {
   
   .menubutton {
 	  display: block;
+    padding-top: 10px;
   }
   
   .home {
 	  padding-right: 56px !important;
 	  margin-bottom: 10px !important;
+    padding-top: 17px !important;
+    padding-bottom: 10px !important;
   }
 }
 
