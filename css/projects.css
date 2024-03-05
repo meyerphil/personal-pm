@@ -1,3 +1,12 @@
+.title {
+	display: block;
+	clear: both;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100px;
+	padding-top: 30px;
+} 
+ 
  .projectBox {
 	float: left;
 	display: table; 
@@ -20,7 +29,7 @@
  
  .projectText {
 	display: block; 
-	font-size: 30px;
+	font-size: 25px;
  }
 
  @media screen and (max-width: 1200px) {
