@@ -86,19 +86,24 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
+  flex: 20%; /* Set the width of the sidebar */
   background-color: #e4e4e4; /* Grey background color */
   padding: 20px; /* Some padding */
 }
 
 /* Main column */
 .main {
-  flex: 70%; /* Set the width of the main content */
+  flex: 80%; /* Set the width of the main content */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
   font-size: 40px;
 }
 
+.frontImage {
+  display: block;
+  width: 70%;
+  padding: 10px;
+}
 
 
 
@@ -138,6 +143,11 @@ body {
 	  margin-bottom: 10px !important;
     padding-top: 17px !important;
     padding-bottom: 10px !important;
+  }
+
+  .frontImage {
+    width: 100% !important;
+    padding: 5px;
   }
 }
 
