@@ -33,6 +33,11 @@
  }
 
  @media screen and (max-width: 1200px) {
+	.title {
+		font-size: 35px;
+		padding-bottom: 10px;
+	} 
+
 	.projectBox {
 	width: 100%;
 	margin: 0px;
