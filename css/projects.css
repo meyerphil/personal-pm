@@ -1,18 +1,18 @@
  .projectBox {
 	float: left;
 	display: table; 
-	height: 400px; 
+	width: 30%;
 	overflow: hidden; 
 	background-color:#e4e4e4; 
 	padding-bottom:20px;
+	margin: 20px;
  }
  
  .projectImage {
 	float: center;
-	width: 70%;
-	width:300px;
+	width: 550px;
     height:300px;
-    object-fit:cover;
+    object-fit:contain;
 	margin-left: auto;
   	margin-right: auto;
 	padding:10px
@@ -20,5 +20,25 @@
  
  .projectText {
 	display: block; 
-	font-size: 20px;
+	font-size: 30px;
  }
+
+ @media screen and (max-width: 1200px) {
+	.projectBox {
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 10px;
+	}
+	.projectImage {
+	  float: center;
+	  width: 70%;
+	  margin-left: auto;
+		margin-right: auto;
+	  padding:10px
+	}
+  
+	.projectText {
+	  display: block; 
+	  font-size: 20px;
+	}
+  }
