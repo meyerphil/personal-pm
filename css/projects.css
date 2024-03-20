@@ -26,7 +26,6 @@
  
  
  .projectImage {
-	float: center;
 	width: 550px;
     height:300px;
     object-fit:contain;

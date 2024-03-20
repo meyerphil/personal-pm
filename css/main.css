@@ -101,10 +101,15 @@ body {
 
 .frontImage {
   display: block;
+  margin: 0 auto;
   width: 70%;
   padding: 10px;
 }
 
+.mainBody {
+  text-align: center;
+  font-size: 25px;
+}
 
 
 
@@ -125,6 +130,10 @@ body {
 
   .main {
     font-size: 30px;
+  }
+
+  .mainBody {
+    font-size: 17px;
   }
   
   .navbar div {
