@@ -5,6 +5,13 @@
 	font-size: 50px;
 	font-weight: 100px;
 	padding-top: 30px;
+}
+
+.subtitle {
+	display: block;
+	clear: both;
+	text-align: center;
+	font-size: 40px;
 } 
  
  .projectBox {
@@ -16,6 +23,7 @@
 	padding-bottom:20px;
 	margin: 20px;
  }
+ 
  
  .projectImage {
 	float: center;
@@ -35,6 +43,11 @@
  @media screen and (max-width: 1200px) {
 	.title {
 		font-size: 35px;
+		padding-bottom: 10px;
+	}
+	
+	.subtitle {
+		font-size: 25px;
 		padding-bottom: 10px;
 	} 
 
