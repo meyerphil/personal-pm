@@ -22,19 +22,8 @@
 	
 
 
-	<div class="navbar">
-	
-		<button id = "m" class = "menubutton" onclick = "toggleMenu()">=</button>
-		
-		<a href="/" class = "home">Home</a>
-		
-		<div id = "menu">
-			<a href="/projects/">Projects</a>
-			<a href="/about/">About Me</a>
-			<a href="https://www.linkedin.com/in/philm3/" class="right">LinkedIn</a>
-		</div>
-		
-	</div>
+	<div id="component-container" data-component="/bar.html"></div>
+    <script src="/scripts/loadComponent.js"></script>
 	
 
 	<div class="row">
@@ -44,7 +33,11 @@
 	  <div class="main"> Current Project:
 			<img class = "frontImage" src = "/images/banner.png">
 			<div class = "mainBody">Our Senior Capstone Project. <a href = "https://riseagain1.github.io/Steam29/">Click here for more info.</a> </div>
-	   </div>
+			<div class = "mainBody">
+				<iframe src="https://store.steampowered.com/widget/2967460/" frameborder="0" width="646" height="190"></iframe>
+			</div>
+			
+		</div>
 	</div>
 
 	<div class="footer">

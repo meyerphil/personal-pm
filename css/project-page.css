@@ -1,0 +1,90 @@
+.title {
+	display: block;
+	clear: both;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100px;
+	padding-top: 30px;
+}
+
+.subtitle {
+	display: block;
+	clear: both;
+	text-align: center;
+	font-size: 30px;
+} 
+ 
+ .projectBox {
+	width: 90%;
+	background-color:#e4e4e4; 
+	margin: 20px auto;
+ }
+
+ .projectVideo {
+	width: 70%;
+	aspect-ratio: 16 / 9;
+    padding: 10px;
+ }
+
+ .projectText {
+	display: block; 
+	font-size: 25px;
+	padding: 25px 200px;
+	text-align: left;
+ }
+
+ .sectionHeader {
+	display: block; 
+	font-size: 35px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 15px;
+ }
+
+ .projectImage {
+	width: 550px;
+    height:300px;
+    object-fit:contain;
+	margin-left: auto;
+  	margin-right: auto;
+	padding:10px;
+ }
+ 
+
+ @media screen and (max-width: 1200px) {
+	.title {
+		font-size: 35px;
+		padding-bottom: 10px;
+	}
+	
+	.subtitle {
+		font-size: 20px;
+		padding-bottom: 10px;
+	} 
+
+	.projectBox {
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 10px;
+	}
+	.projectImage {
+	  float: center;
+	  width: 70%;
+	  margin-left: auto;
+		margin-right: auto;
+	  padding:10px
+	}
+	
+
+	.projectVideo {
+		width: 95%;
+		padding: 10px;
+	 }
+  
+	.projectText {
+	  display: block; 
+	  font-size: 20px;
+	  padding: 25px;
+	}
+
+  }

@@ -41,8 +41,9 @@ body {
 .navbar {
   overflow: hidden; /* Hide overflow */
   background-color: #2d2d2d; /* Dark background color */
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   
 }
 
