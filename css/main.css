@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 
-
 .header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
@@ -11,8 +10,9 @@ body {
   color: white; /* white text color */
 
   background-image: url('/images/building.jpg');
-  background-size: auto;
-  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: contain;
+  background-position: 0% 23%;
 
 }
 
@@ -120,6 +120,14 @@ body {
   .row {
     flex-direction: column;
   }
+
+  .steam-scale {
+    transform: scale(0.5); /* Adjust the scale factor as needed */
+    transform-origin: top left; /* Keeps the scaling origin at the top-left corner */
+    width: 646px; /* Original width of the container */
+    height: 190px; /* Original height of the container */
+    overflow: hidden; /* Ensure no overflow issues */
+  }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -132,6 +140,7 @@ body {
   .main {
     font-size: 30px;
   }
+
 
   .mainBody {
     font-size: 17px;
