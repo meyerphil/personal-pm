@@ -98,6 +98,7 @@ body {
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
   font-size: 40px;
+  width: 100%;
 }
 
 .frontImage {
