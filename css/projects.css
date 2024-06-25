@@ -12,17 +12,50 @@
 	clear: both;
 	text-align: center;
 	font-size: 40px;
-} 
+}
+
+.projectGrid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/*height: 100vh; /* Full viewport height */
+}
  
  .projectBox {
-	float: left;
-	display: table; 
-	width: 30%;
-	overflow: hidden; 
+	z-index: 2;
+	display: none;
 	background-color:#e4e4e4; 
-	padding-bottom:20px;
-	margin: 20px;
+
+	position: absolute;
+
+	top: 25%; /* Position 50% down from the top of .trigger */
+	left: 50%; /* Position 50% across from the left of .trigger */
+	transform: translate(-50%, -25%); /* Center the appear div */
  }
+
+ .projectHover{
+	position: relative;
+	width: 400px;
+	height: 300px;
+	padding-bottom:20px;
+	margin: 10px;
+	background-color: #3498db69;
+
+	/* Center text */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*
+	color: white;
+	font-size: 20px;
+	cursor: pointer; */
+ }
+
+ .projectHover:hover > .projectBox {
+	display: flex;
+}
  
  
  .projectImage {
