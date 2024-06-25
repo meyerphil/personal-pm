@@ -6,14 +6,23 @@ body {
 .header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
-  background: #fbff00; /* yellow background */
+  /* background: #fbff00; /* yellow background */
   color: white; /* white text color */
 
-  background-image: url('/images/building.jpg');
-  background-size: cover;
-  background-attachment: contain;
-  background-position: 0% 23%;
+}
 
+.background-image{
+  background-image: url('/images/building.jpg');
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-attachment: scroll; /* Fix the image in place during scrolling */
+  background-position: 50% 60%; /* Position the image */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 /* Increase the font size of the <h1> element */
@@ -82,6 +91,14 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: 10px;
+}
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #e4e4e4; /* Grey background */
+  margin: 10px;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -169,13 +186,4 @@ body {
     width: 100% !important;
     padding: 5px;
   }
-}
-
-
-
-
-.footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #e4e4e4; /* Grey background */
 }

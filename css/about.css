@@ -28,6 +28,7 @@ body {
  }
  
  .imageTextBox {
+	margin: 10px;
 	display: table; 
 	height: 400px; 
 	overflow: hidden; 
