@@ -8,6 +8,7 @@ body {
   text-align: center; /* center the text */
   /* background: #fbff00; /* yellow background */
   color: white; /* white text color */
+  
 
 }
 
@@ -37,7 +38,7 @@ body {
 	color: white; /* White text color */
 	text-align: center; /* Center the text */
 	padding: 6px 17px; /* Add some padding */
-	background-color: #2d2d2d; /* Dark background color */
+	background-color: #2d2d2d00; /* Dark background color */
 	display: None;
 	border-style: None;
 	font-size: 30px;

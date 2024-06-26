@@ -37,8 +37,7 @@
  .projectHover{
 	position: relative;
 	width: 400px;
-	height: 300px;
-	padding-bottom:20px;
+	height: 400px;
 	margin: 10px;
 	background-color: #e4e4e4; 
 
@@ -56,17 +55,28 @@
  .projectHover:hover > .projectBox {
 	display: flex;
 }
- 
- 
- .projectImage {
-	width: 550px;
-    height:300px;
-    object-fit:contain;
-	padding:10px;
-	margin: auto;
- }
+
+.projectImage {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	object-fit: cover;
+	padding: 5px;
+}
+
+.projectGif {
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	object-fit: cover;
+	padding: 5px;
+}
+
  
  .projectText {
+	margin: 0px;
 	display: block; 
 	font-size: 25px;
  }
