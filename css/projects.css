@@ -90,19 +90,6 @@
 	.subtitle {
 		font-size: 25px;
 		padding-bottom: 10px;
-	} 
-
-	.projectBox {
-	width: 100%;
-	margin: 0px;
-	margin-bottom: 10px;
-	}
-	.projectImage {
-	  float: center;
-	  width: 70%;
-	  margin-left: auto;
-		margin-right: auto;
-	  padding:10px
 	}
   
 	.projectText {
@@ -110,3 +97,31 @@
 	  font-size: 20px;
 	}
   }
+
+
+@media screen and (max-width: 450px) {
+  	.projectHover{
+		width: 160px;
+		height: 160px;
+	}
+
+	.projectHover:hover > .projectBox {
+		position: fixed;
+		top: 53%;
+		left: 50%;
+		width: 90%;
+		height: auto;
+		transform: translate(-50%, -47%);
+		display: flex !important;
+	}
+
+
+	.projectImage {
+		width: 160px;
+		height: 160px;
+	}
+
+	.projectGif {
+		width: 100%;
+	}
+}
