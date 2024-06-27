@@ -34,6 +34,21 @@
 	transform: translate(-50%, -25%); /* Center the appear div */
  }
 
+ .projectClose{
+	z-index: 10;
+	background-color:#e4e4e4; 
+	font-size: 70px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 100px;
+	height: 10px;
+
+	position: absolute;
+	transform: translate(340px, -500px);
+
+	display: none;
+ }
+
  .projectHover{
 	position: relative;
 	width: 400px;
@@ -81,6 +96,12 @@
 	font-size: 25px;
  }
 
+ @media (hover: none) and (pointer: coarse) {
+	.projectHover:hover + .projectClose {
+		display: block;
+	}
+ }
+
  @media screen and (max-width: 1200px) {
 	.title {
 		font-size: 35px;
@@ -113,6 +134,13 @@
 		height: auto;
 		transform: translate(-50%, -47%);
 		display: flex !important;
+	}
+
+	.projectHover:hover + .projectClose {
+		position: fixed;
+		top: 10%;
+		right: 4%;
+		transform: translate(0, 0);
 	}
 
 
