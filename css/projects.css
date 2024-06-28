@@ -36,6 +36,8 @@
 
  .projectClose{
 	z-index: 10;
+	color: black;
+	border-style: None;
 	background-color:#e4e4e4; 
 	font-size: 70px;
 	padding-left: 25px;
