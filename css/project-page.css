@@ -23,7 +23,6 @@
 	padding: 30px;
  }
 
-
  .projectVideo {
 	width: 70%;
 	aspect-ratio: 16 / 9;
@@ -63,18 +62,6 @@
 	padding:10px;
  }
 
-.projectImageR {
-	display: block;
-	height: 100%;
-	margin: 50px auto;
-}
-
-.image {
-	display: block;
-	margin: auto 10px;
-	width: 100%;
-}
-
 
 .imageTextBox {
 	width: 100%;
@@ -90,6 +77,7 @@
 
 
  @media screen and (max-width: 1200px) {
+	
 	.title {
 		font-size: 35px;
 		padding-bottom: 10px;
