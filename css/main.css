@@ -8,6 +8,11 @@ body {
   text-align: center; /* center the text */
   /* background: #fbff00; /* yellow background */
   color: white; /* white text color */
+  text-shadow:            
+  -1px -1px 2px #000,  
+  1px -1px 2px #000,
+  -1px  1px 2px #000,
+  1px  1px 2px #000;
   
 
 }
@@ -50,7 +55,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #2d2d2d; /* Dark background color */
+  background-color: #0f0f0ff5; /* Dark background color */
   position: fixed;
   top: 0;
   width: 100%;
