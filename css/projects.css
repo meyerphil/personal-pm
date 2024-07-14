@@ -87,6 +87,7 @@
 
  .projectHover:hover > .projectBox {
 	display: flex;
+	flex-direction: column;
 }
 
 .projectImage {
