@@ -15,7 +15,7 @@ async function loadProjects(sortBy = null) {
     // Custom order array
     const customOrder = {
         'technology' : ['Unity', 'WebGL/GLSL','WebGL/Three.JS', 'Construct3', 'Phaser', 'CrispGameLib', 'HTML/P5.JS', 'Twine'],
-
+        'published' : ['Steam', 'Itch.io', 'Heroku', 'Github Pages', undefined],
         };
     
     const reType = {
@@ -23,7 +23,9 @@ async function loadProjects(sortBy = null) {
         'WebGL/Three.JS': 'WebGL',
         'playLink': ['Not Playable', 'Playable'],
         'infoLink': ['No Further Info', 'More Info Available'],
-        undefined : 'My Work!',
+        'published' : 'Not Published',
+        '' : 'Unsorted',
+        undefined : 'N/A',
     }
 
     if (sortBy === 'playLink' || sortBy === 'infoLink') {
@@ -65,6 +67,9 @@ async function loadProjects(sortBy = null) {
         if (sortBy === 'playLink' || sortBy === 'infoLink') {
             sortType = reType[sortBy][project[sortBy] ? 1 : 0];
             
+        }else if(sortType === undefined){
+            sortType = reType[sortBy];
+            
         } else if(reType[project[sortBy]]){
             sortType = reType[project[sortBy]];
         }
@@ -93,13 +98,13 @@ function createProjectHTML(project) {
     let playButtonHTML = '';
     let infoButtonHTML = '';
     if (project.playLink) {
-        playButtonHTML = `<a href="${project.playLink}">PLAY HERE</a>`;
+        playButtonHTML = `<a href="${project.playLink}">Play on ${project.published}</a>`;
 
         if (project.infoLink) {
-            infoButtonHTML = `<span style="display: inline-block; width: 2em;"></span><a href="${project.infoLink}">INFO</a>`;
+            infoButtonHTML = `<span style="display: inline-block; width: 2em;"></span><a href="${project.infoLink}">Info</a>`;
         }
     } else if (project.infoLink) {
-        infoButtonHTML = `<a href="${project.infoLink}">INFO</a>`;
+        infoButtonHTML = `<a href="${project.infoLink}">Info</a>`;
     }
 
 

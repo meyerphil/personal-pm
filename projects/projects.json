@@ -1,5 +1,38 @@
 [
+    {
+        "image": "./images/red-trees-2.png",
+        "gif": "./gifs/RTRC-showcase.gif",
+        "title": "RED TREES RAIL. CO.",
+        "description": "VR Horror Train Simulator",
+        "technology": "Unity",
+        "published": "Steam",
+        "playLink": "https://store.steampowered.com/app/2967460/RED_TREES_RAIL_CO/",
+        "infoLink": "/projects/redtrees-railco/",
+        "work": [
+            "Real World Counterpart Research",
+            "VR Interactions of Steam Locomotive",
+            "Modeling of Objects and Environment",
+            "All Animations",
+            "Scripting of Events and Audio",
+            "Notebook and Passenger Queue System"
+        ]
+    },
 
+    {
+        "image": "./images/midterm.png",
+        "gif": "./gifs/office-showcase.gif",
+        "title": "Office Clipboard Alpha",
+        "description": "VR Draw-To-Life Experience",
+        "technology": "Unity",
+        "infoLink": "/projects/office-alpha/",
+        "work": [
+            "VR Interactable Clipboard and Pens",
+            "Drawable Notebook Paper",
+            "2D 'Drawn Ink' to 3D 'Doodle' System",
+            "Art",
+            "Environment"
+        ]
+    },
     {
         "image": "./images/shadow-high.png",
         "gif": "./gifs/shadow-showcase.gif",
@@ -51,6 +84,7 @@
         "title": "Retro-Active",
         "description": "Published Game",
         "technology": "Unity",
+        "published": "Itch.io",
         "playLink": "https://ichigo33.itch.io/retro-active",
         "infoLink": "/projects/retro-active/",
         "work": [
@@ -67,6 +101,7 @@
         "title": "One Algo Over All",
         "description": "Dual Narrative",
         "technology": "Unity",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/HUMN45-FinalProject/",
         "infoLink": "/projects/one-algo-over-all/",
         "work": [
@@ -83,6 +118,7 @@
         "title": "Block Dodger",
         "description": "One-Button Survival",
         "technology": "CrispGameLib",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/block-dodger/index.html?mygame",
         "work": [
             "Game Design / Ideation",
@@ -97,6 +133,7 @@
         "title": "Id & Ego",
         "description": "Hack-n-Slash Platformer",
         "technology": "Construct3",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/Id-Igo/",
         "infoLink": "/projects/id-and-ego/",
         "work": [
@@ -111,6 +148,7 @@
         "title": "Abandoned Ship",
         "description": "Horror Link-based Game",
         "technology": "Twine",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/abandon-ship/",
         "infoLink": "/projects/abandoned-ship/",
         "work": [
@@ -126,6 +164,7 @@
         "title": "Doodlebob",
         "description": "Collaborative Drawing App",
         "technology": "HTML/P5.JS",
+        "published": "Heroku",
         "playLink": "https://doodlebob-art101.herokuapp.com/",
         "infoLink": "/projects/doodlebob/",
         "work": [
@@ -184,6 +223,7 @@
         "title": "Color Inside",
         "description": "2D Reverie Platformer",
         "technology": "Phaser",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/ColorInsideGame/",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -200,6 +240,7 @@
         "title": "Escape the House",
         "description": "Horror Adventure Game",
         "technology": "Phaser",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/CMPM120Adventure/",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -215,6 +256,7 @@
         "title": "Wacky Pins",
         "description": "Bowling/Mini-Golf Fusion",
         "technology": "Phaser",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/CMPM120-D3/",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -229,6 +271,7 @@
         "title": "The Last Extraction",
         "description": "Dual Narrative",
         "technology": "Phaser",
+        "published": "Itch.io",
         "playLink": "https://philm3r.itch.io/the-last-extraction",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -245,6 +288,7 @@
         "title": "Star Surf Sushi",
         "description": "Mobile Friendly Sushi Tycoon",
         "technology": "Phaser",
+        "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/Sushi-game/main.html",
         "infoLink": "/projects/star-sushi/",
         "work": [
@@ -254,40 +298,6 @@
             "Integrated Art Assets to create Dynamic UI",
             "JSON-driven Tutorial with Video Example",
             "Used Browser Cookie to save music setting"
-        ]
-    },
-
-    {
-        "image": "./images/midterm.png",
-        "gif": "./gifs/office-showcase.gif",
-        "title": "Office Clipboard Alpha",
-        "description": "Draw-To-Life Experience",
-        "technology": "Unity",
-        "playLink": "https://office-alpha.com",
-        "infoLink": "/projects/office-alpha/",
-        "work": [
-            "VR Interactable Clipboard and Pens",
-            "Drawable Notebook Paper",
-            "2D 'Drawn Ink' to 3D 'Doodle' System",
-            "Art",
-            "Environment"
-        ]
-    },
-    {
-        "image": "./images/red-trees-2.png",
-        "gif": "./gifs/RTRC-showcase.gif",
-        "title": "RED TREES RAIL. CO.",
-        "description": "Horror Train Simulator",
-        "technology": "Unity",
-        "playLink": "https://store.steampowered.com/app/2967460/RED_TREES_RAIL_CO/",
-        "infoLink": "/projects/redtrees-railco/",
-        "work": [
-            "Real World Counterpart Research",
-            "VR Interactions of Steam Locomotive",
-            "Modeling of Objects and Environment",
-            "All Animations",
-            "Scripting of Events and Audio",
-            "Notebook and Passenger Queue System"
         ]
     }
 
