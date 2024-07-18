@@ -14,7 +14,7 @@ async function loadProjects(sortBy = null) {
 
     // Custom order array
     const customOrder = {
-        'technology' : ['Unity', 'WebGL/GLSL','WebGL/Three.JS', 'Phaser', 'Construct3', 'CrispGameLib', 'HTML/P5.JS', 'Twine'],
+        'technology' : ['Unity', 'WebGL/Three.JS', 'WebGL/GLSL', 'Phaser', 'Construct3', 'CrispGameLib', 'HTML/P5.JS', 'Twine'],
         'published' : ['Steam', 'Itch.io', 'Heroku', 'Github Pages', undefined],
         'timeline' : ['2024 Winter-Spring', '2024 Spring', '2024 Winter',
                         '2023 Fall', '2023 Spring', '2023 Winter', 
