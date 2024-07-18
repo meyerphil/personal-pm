@@ -1,5 +1,6 @@
 [
     {
+        "timeline": "2024 Winter-Spring",
         "image": "./images/red-trees-2.png",
         "gif": "./gifs/RTRC-showcase.gif",
         "title": "RED TREES RAIL. CO.",
@@ -19,6 +20,7 @@
     },
 
     {
+        "timeline": "2024 Spring",
         "image": "./images/midterm.png",
         "gif": "./gifs/office-showcase.gif",
         "title": "Office Clipboard Alpha",
@@ -34,6 +36,7 @@
         ]
     },
     {
+        "timeline": "2021 Summer",
         "image": "./images/shadow-high.png",
         "gif": "./gifs/shadow-showcase.gif",
         "title": "Shadow Cave",
@@ -48,37 +51,9 @@
             "Shadow Interactions System"
         ]
     },
+
     {
-        "image": "./images/stadium-90.png",
-        "gif": "./gifs/stadium-showcase.gif",
-        "title": "Stadium Ghouls",
-        "description": "Horror Game",
-        "technology": "Unity",
-        "infoLink": "/projects/stadium-ghouls/",
-        "work": [
-            "Constructed First Person Movement and Camera",
-            "AI configuration for Ghouls",
-            "General Design and Layout of Baseball Stadium",
-            "User Interface and Main Menu",
-            "Flashlight Model and Script"
-        ]
-    },
-    {
-        "image": "./images/fright_close.png",
-        "gif": "./gifs/fright-showcase.gif",
-        "title": "The Fun Frightful Walking Simulator",
-        "description": "Experience",
-        "technology": "Unity",
-        "infoLink": "/projects/fun-frightful-walking/",
-        "work": [
-            "Upgraded my First Person Movement and Camera controller",
-            "Scripting of Events and Player Detection",
-            "General Design and Layout",
-            "User Interface and Main Menu",
-            "Flashlight Model, Light Cookie, and Script"
-        ]
-    },
-    {
+        "timeline": "2023 Fall",
         "image": "./images/gameboy_break.png",
         "gif": "./gifs/break-fp.gif",
         "title": "Retro-Active",
@@ -95,7 +70,43 @@
             "This Game Trailer!"
         ]
     },
+
     {
+        "timeline": "2023 Fall",
+        "image": "./images/fright_close.png",
+        "gif": "./gifs/fright-showcase.gif",
+        "title": "The Fun Frightful Walking Simulator",
+        "description": "Experience",
+        "technology": "Unity",
+        "infoLink": "/projects/fun-frightful-walking/",
+        "work": [
+            "Upgraded my First Person Movement and Camera controller",
+            "Scripting of Events and Player Detection",
+            "General Design and Layout",
+            "User Interface and Main Menu",
+            "Flashlight Model, Light Cookie, and Script"
+        ]
+    },
+
+    {
+        "timeline": "2023 Fall",
+        "image": "./images/stadium-90.png",
+        "gif": "./gifs/stadium-showcase.gif",
+        "title": "Stadium Ghouls",
+        "description": "Horror Game",
+        "technology": "Unity",
+        "infoLink": "/projects/stadium-ghouls/",
+        "work": [
+            "Constructed First Person Movement and Camera",
+            "AI configuration for Ghouls",
+            "General Design and Layout of Baseball Stadium",
+            "User Interface and Main Menu",
+            "Flashlight Model and Script"
+        ]
+    },
+
+    {
+        "timeline": "2024 Winter",
         "image": "./images/OAOA-2.png",
         "gif": "./gifs/OAOA-showcase.gif",
         "title": "One Algo Over All",
@@ -113,6 +124,7 @@
         ]
     },
     {
+        "timeline": "2023 Fall",
         "image": "./images/dodger.png",
         "gif": "./gifs/dodger-play.gif",
         "title": "Block Dodger",
@@ -127,38 +139,9 @@
             "Scaling, Moving and Falling Blocks"
         ]
     },
-    {
-        "image": "./images/idego.png",
-        "gif": "./gifs/idego-showcase.gif",
-        "title": "Id & Ego",
-        "description": "Hack-n-Slash Platformer",
-        "technology": "Construct3",
-        "published": "Github Pages",
-        "playLink": "https://meyerphil.github.io/Id-Igo/",
-        "infoLink": "/projects/id-and-ego/",
-        "work": [
-            "Player Movement/Shooting Mechanics",
-            "Dodging Ability",
-            "Boss AI"
-        ]
-    },
-    {
-        "image": "./images/ship-2-c.png",
-        "gif": "./gifs/ship-showcase.gif",
-        "title": "Abandoned Ship",
-        "description": "Horror Link-based Game",
-        "technology": "Twine",
-        "published": "Github Pages",
-        "playLink": "https://meyerphil.github.io/abandon-ship/",
-        "infoLink": "/projects/abandoned-ship/",
-        "work": [
-            "Dreadful Concept Design and Writing",
-            "Condition-based Scripting and Endings",
-            "3-Digit Code Input for Locked Door"
-        ]
-    },
 
     {
+        "timeline": "2022 Spring",
         "image": "./images/doodle4-crop.png",
         "gif": "./gifs/forest-draw.gif",
         "title": "Doodlebob",
@@ -175,34 +158,43 @@
             "Private and Unique Client Connections"
         ]
     },
+
     {
-        "image": "./images/asg3-screengrab.png",
-        "gif": "./gifs/asg3-showcase.gif",
-        "title": "BuildBreak World",
-        "description": "Demo",
-        "technology": "WebGL/GLSL",
+        "timeline": "2022 Spring",
+        "image": "./images/idego.png",
+        "gif": "./gifs/idego-showcase.gif",
+        "title": "Id & Ego",
+        "description": "Hack-n-Slash Platformer",
+        "technology": "Construct3",
+        "published": "Github Pages",
+        "playLink": "https://meyerphil.github.io/Id-Igo/",
+        "infoLink": "/projects/id-and-ego/",
         "work": [
-            "First-Person Movement",
-            "Camera Rotation with Mouse Drag",
-            "Able to Build/Break Blocks",
-            "Collision Detection",
-            "Multiple Textures and UV coords",
-            "Monkey Model and Animation"
+            "Player Movement/Shooting Mechanics",
+            "Dodging Ability",
+            "Boss AI"
         ]
     },
+
     {
-        "image": "./images/asg4-screengrab.png",
-        "gif": "./gifs/asg4-showcase.gif",
-        "title": "Lighting the Room",
-        "description": "Demo",
-        "technology": "WebGL/GLSL",
+        "timeline": "2022 Spring",
+        "image": "./images/ship-2-c.png",
+        "gif": "./gifs/ship-showcase.gif",
+        "title": "Abandoned Ship",
+        "description": "Horror Link-based Game",
+        "technology": "Twine",
+        "published": "Github Pages",
+        "playLink": "https://meyerphil.github.io/abandon-ship/",
+        "infoLink": "/projects/abandoned-ship/",
         "work": [
-            "Created Environment and 'Phong' Lighting",
-            "Spotlight to Focus Light in a Direction",
-            "Lighting Works with Monkey Model"
+            "Dreadful Concept Design and Writing",
+            "Condition-based Scripting and Endings",
+            "3-Digit Code Input for Locked Door"
         ]
     },
+
     {
+        "timeline": "2022 Fall",
         "image": "./images/asg5-screengrab.png",
         "gif": "./gifs/asg5-showcase.gif",
         "title": "The Foggy Statue",
@@ -218,54 +210,58 @@
     },
 
     {
-        "image": "./images/color-2.png",
-        "gif": "./gifs/color-showcase.gif",
-        "title": "Color Inside",
-        "description": "2D Reverie Platformer",
-        "technology": "Phaser",
-        "published": "Github Pages",
-        "playLink": "https://meyerphil.github.io/ColorInsideGame/",
-        "infoLink": "/projects/last-extraction/",
+        "timeline": "2022 Fall",
+        "image": "./images/asg4-screengrab.png",
+        "gif": "./gifs/asg4-showcase.gif",
+        "title": "Lighting the Room",
+        "description": "Demo",
+        "technology": "WebGL/GLSL",
         "work": [
-            "Programming and Implementation",
-            "2D Controller and Geometric Shooting",
-            "Randomized Level Mechanics",
-            "Sprite Art made with MS Paint",
-            "Self-taught Phaser Engine"
+            "Created Environment and 'Phong' Lighting",
+            "Spotlight to Focus Light in a Direction",
+            "Lighting Works with Monkey Model"
         ]
     },
+
     {
-        "image": "./images/house-2.png",
-        "gif": "./gifs/house-showcase.gif",
-        "title": "Escape the House",
-        "description": "Horror Adventure Game",
-        "technology": "Phaser",
-        "published": "Github Pages",
-        "playLink": "https://meyerphil.github.io/CMPM120Adventure/",
-        "infoLink": "/projects/last-extraction/",
+        "timeline": "2022 Fall",
+        "image": "./images/asg3-screengrab.png",
+        "gif": "./gifs/asg3-showcase.gif",
+        "title": "BuildBreak World",
+        "description": "Demo",
+        "technology": "WebGL/GLSL",
         "work": [
-            "Dreadful Concept Design and Writing",
-            "Condition-based Scripting and Endings",
-            "3-Digit Code Input for Locked Door",
-            "Utilized and Upgraded Adventure Engine"
+            "First-Person Movement",
+            "Camera Rotation with Mouse Drag",
+            "Able to Build/Break Blocks",
+            "Collision Detection",
+            "Multiple Textures and UV coords",
+            "Monkey Model and Animation"
         ]
     },
+
     {
-        "image": "./images/wackypin.png",
-        "gif": "./gifs/wacky-showcase.gif",
-        "title": "Wacky Pins",
-        "description": "Bowling/Mini-Golf Fusion",
+        "timeline": "2023 Spring",
+        "image": "./images/sushi.png",
+        "gif": "./gifs/sushi-game.gif",
+        "title": "Star Surf Sushi",
+        "description": "Mobile Friendly Sushi Tycoon",
         "technology": "Phaser",
         "published": "Github Pages",
-        "playLink": "https://meyerphil.github.io/CMPM120-D3/",
-        "infoLink": "/projects/last-extraction/",
+        "playLink": "https://meyerphil.github.io/Sushi-game/main.html",
+        "infoLink": "/projects/star-sushi/",
         "work": [
-            "Physics-Based Level Design",
-            "Ball-Launching Mechanic using Math Formulas",
-            "Pin Position Check and Formation Function"
+            "Implemented Sushi Recipes, Customers",
+            "Added Progression of Supply, Cash, Stats",
+            "End of Day Results and Fish Supply Shop",
+            "Integrated Art Assets to create Dynamic UI",
+            "JSON-driven Tutorial with Video Example",
+            "Used Browser Cookie to save music setting"
         ]
     },
+
     {
+        "timeline": "2023 Spring",
         "image": "./images/last-extract-1.png",
         "gif": "./gifs/purple-game.gif",
         "title": "The Last Extraction",
@@ -282,22 +278,58 @@
             "Published to Itch.io"
         ]
     },
+    
     {
-        "image": "./images/sushi.png",
-        "gif": "./gifs/sushi-game.gif",
-        "title": "Star Surf Sushi",
-        "description": "Mobile Friendly Sushi Tycoon",
+        "timeline": "2023 Spring",
+        "image": "./images/wackypin.png",
+        "gif": "./gifs/wacky-showcase.gif",
+        "title": "Wacky Pins",
+        "description": "Bowling/Mini-Golf Fusion",
         "technology": "Phaser",
         "published": "Github Pages",
-        "playLink": "https://meyerphil.github.io/Sushi-game/main.html",
-        "infoLink": "/projects/star-sushi/",
+        "playLink": "https://meyerphil.github.io/CMPM120-D3/",
+        "infoLink": "/projects/last-extraction/",
         "work": [
-            "Implemented Sushi Recipes, Customers",
-            "Added Progression of Supply, Cash, Stats",
-            "End of Day Results and Fish Supply Shop",
-            "Integrated Art Assets to create Dynamic UI",
-            "JSON-driven Tutorial with Video Example",
-            "Used Browser Cookie to save music setting"
+            "Physics-Based Level Design",
+            "Ball-Launching Mechanic using Math Formulas",
+            "Pin Position Check and Formation Function"
+        ]
+    },
+
+    {
+        "timeline": "2023 Spring",
+        "image": "./images/house-2.png",
+        "gif": "./gifs/house-showcase.gif",
+        "title": "Escape the House",
+        "description": "Horror Adventure Game",
+        "technology": "Phaser",
+        "published": "Github Pages",
+        "playLink": "https://meyerphil.github.io/CMPM120Adventure/",
+        "infoLink": "/projects/last-extraction/",
+        "work": [
+            "Dreadful Concept Design and Writing",
+            "Condition-based Scripting and Endings",
+            "3-Digit Code Input for Locked Door",
+            "Utilized and Upgraded Adventure Engine"
+        ]
+    },
+
+    {
+        "timeline": "2023 Spring",
+        "image": "./images/color-2.png",
+        "gif": "./gifs/color-showcase.gif",
+        "title": "Color Inside",
+        "description": "2D Reverie Platformer",
+        "technology": "Phaser",
+        "published": "Github Pages",
+        "playLink": "https://meyerphil.github.io/ColorInsideGame/",
+        "infoLink": "/projects/last-extraction/",
+        "work": [
+            "Programming and Implementation",
+            "2D Controller and Geometric Shooting",
+            "Randomized Level Mechanics",
+            "Sprite Art made with MS Paint",
+            "Self-taught Phaser Engine"
         ]
     }
 
