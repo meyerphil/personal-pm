@@ -1,0 +1,36 @@
+ .project {
+	display: flex; 
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+ }
+
+.projectBox {
+    position: relative;
+	display: flex;
+
+    /*undo*/
+    top: 0;
+	left: 0;
+	transform: translate(0, 0);
+    transform: scale(1.1);
+    margin: 20px;
+ }
+
+ .text {
+	background-color: #e4e4e4; 
+	padding: 20px;
+	margin: 50px;
+	font-size: 27px;
+	width: 700px;
+ }
+
+ .projectImage {
+    display: flex;
+	width: 700px;
+    height: auto;
+    padding: 50px;
+}
+
+
