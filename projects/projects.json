@@ -1,0 +1,274 @@
+[
+
+    {
+        "image": "./images/shadow-high.png",
+        "gif": "./gifs/shadow-showcase.gif",
+        "title": "Shadow Cave",
+        "description": "VR Prototype built using Unity",
+        "infoLink": "/projects/shadow-cave/",
+        "work": [
+            "Coded the Gesture Recognition for Hand Tracking",
+            "3D Models for Cave and Scissors made in Blender",
+            "Animation of Scissors",
+            "Ideation/Design of Game and Puzzles",
+            "Shadow Interactions System"
+        ]
+    },
+    {
+        "image": "./images/stadium-90.png",
+        "gif": "./gifs/stadium-showcase.gif",
+        "title": "Stadium Ghouls",
+        "description": "Horror Game built using Unity",
+        "infoLink": "/projects/stadium-ghouls/",
+        "work": [
+            "Constructed First Person Movement and Camera",
+            "AI configuration for Ghouls",
+            "General Design and Layout of Baseball Stadium",
+            "User Interface and Main Menu",
+            "Flashlight Model and Script"
+        ]
+    },
+    {
+        "image": "./images/fright_close.png",
+        "gif": "./gifs/fright-showcase.gif",
+        "title": "The Fun Frightful Walking Simulator",
+        "description": "Experience built using Unity",
+        "infoLink": "/projects/fun-frightful-walking/",
+        "work": [
+            "Upgraded my First Person Movement and Camera controller",
+            "Scripting of Events and Player Detection",
+            "General Design and Layout",
+            "User Interface and Main Menu",
+            "Flashlight Model, Light Cookie, and Script"
+        ]
+    },
+    {
+        "image": "./images/gameboy_break.png",
+        "gif": "./gifs/break-fp.gif",
+        "title": "Retro-Active",
+        "description": "Published Game built using Unity",
+        "playLink": "https://ichigo33.itch.io/retro-active",
+        "infoLink": "/projects/retro-active/",
+        "work": [
+            "Team Leader and Recruited Members",
+            "Game Idea and Design",
+            "Cartridge Animations",
+            "Programmed \"Retro Games\" Mechanic",
+            "This Game Trailer!"
+        ]
+    },
+    {
+        "image": "./images/OAOA-2.png",
+        "gif": "./gifs/OAOA-showcase.gif",
+        "title": "One Algo Over All",
+        "description": "Dual Narrative built using Unity",
+        "playLink": "https://meyerphil.github.io/HUMN45-FinalProject/",
+        "infoLink": "/projects/one-algo-over-all/",
+        "work": [
+            "Team Lead and Designer",
+            "2D Player Controller",
+            "Splitscreen Config and UI",
+            "Tasks List and Wallet",
+            "Dystopian Coded Bias Algorithm"
+        ]
+    },
+    {
+        "image": "./images/dodger.png",
+        "gif": "./gifs/dodger-play.gif",
+        "title": "Block Dodger",
+        "description": "One-Button Survival built using CrispGameLib",
+        "playLink": "https://meyerphil.github.io/block-dodger/index.html?mygame",
+        "work": [
+            "Game Design / Ideation",
+            "2D Player Controller and Collision",
+            "Simple Sprite Art",
+            "Scaling, Moving and Falling Blocks"
+        ]
+    },
+    {
+        "image": "./images/idego.png",
+        "gif": "./gifs/idego-showcase.gif",
+        "title": "Id & Ego",
+        "description": "Hack-n-Slash Platformer built using Construct3",
+        "playLink": "https://meyerphil.github.io/Id-Igo/",
+        "infoLink": "/projects/id-and-ego/",
+        "work": [
+            "Player Movement/Shooting Mechanics",
+            "Dodging Ability",
+            "Boss AI"
+        ]
+    },
+    {
+        "image": "./images/ship-2-c.png",
+        "gif": "./gifs/ship-showcase.gif",
+        "title": "Abandoned Ship",
+        "description": "Horror Link-based Game built using Twine",
+        "playLink": "https://meyerphil.github.io/abandon-ship/",
+        "infoLink": "/projects/abandoned-ship/",
+        "work": [
+            "Dreadful Concept Design and Writing",
+            "Condition-based Scripting and Endings",
+            "3-Digit Code Input for Locked Door"
+        ]
+    },
+
+    {
+        "image": "./images/doodle4-crop.png",
+        "gif": "./gifs/forest-draw.gif",
+        "title": "Doodlebob",
+        "description": "Collaborative Drawing App built on HTML/P5.JS",
+        "playLink": "https://doodlebob-art101.herokuapp.com/",
+        "infoLink": "/projects/doodlebob/",
+        "work": [
+            "Multiple Clients can draw on Server Canvas",
+            "User List with User Colors and Name Input",
+            "Drawing Prompt Generator",
+            "Server-Side Pixel Data Processing",
+            "Private and Unique Client Connections"
+        ]
+    },
+    {
+        "image": "./images/asg3-screengrab.png",
+        "gif": "./gifs/asg3-showcase.gif",
+        "title": "BuildBreak World",
+        "description": "Demo built using WebGL/GLSL",
+        "work": [
+            "First-Person Movement",
+            "Camera Rotation with Mouse Drag",
+            "Able to Build/Break Blocks",
+            "Collision Detection",
+            "Multiple Textures and UV coords",
+            "Monkey Model and Animation"
+        ]
+    },
+    {
+        "image": "./images/asg4-screengrab.png",
+        "gif": "./gifs/asg4-showcase.gif",
+        "title": "Lighting the Room",
+        "description": "Demo built using WebGL/GLSL",
+        "work": [
+            "Created Environment and 'Phong' Lighting",
+            "Spotlight to Focus Light in a Direction",
+            "Lighting Works with Monkey Model"
+        ]
+    },
+    {
+        "image": "./images/asg5-screengrab.png",
+        "gif": "./gifs/asg5-showcase.gif",
+        "title": "The Foggy Statue",
+        "description": "Demo built using WebGL/Three.JS",
+        "work": [
+            "Created Scene and Environment",
+            "Imported Custom 3D Models",
+            "Added Shadows to Objects",
+            "Added Fog and Orthographic Camera",
+            "Moving Ocean Texture and Skybox Stars"
+        ]
+    },
+
+    {
+        "image": "./images/color-2.png",
+        "gif": "./gifs/color-showcase.gif",
+        "title": "Color Inside",
+        "description": "2D Reverie Platformer (Phaser)",
+        "playLink": "https://meyerphil.github.io/ColorInsideGame/",
+        "infoLink": "/projects/last-extraction/",
+        "work": [
+            "Programming and Implementation",
+            "2D Controller and Geometric Shooting",
+            "Randomized Level Mechanics",
+            "Sprite Art made with MS Paint",
+            "Self-taught Phaser Engine"
+        ]
+    },
+    {
+        "image": "./images/house-2.png",
+        "gif": "./gifs/house-showcase.gif",
+        "title": "Escape the House",
+        "description": "Horror Adventure Game built using Phaser",
+        "playLink": "https://meyerphil.github.io/CMPM120Adventure/",
+        "infoLink": "/projects/last-extraction/",
+        "work": [
+            "Dreadful Concept Design and Writing",
+            "Condition-based Scripting and Endings",
+            "3-Digit Code Input for Locked Door",
+            "Utilized and Upgraded Adventure Engine"
+        ]
+    },
+    {
+        "image": "./images/wackypin.png",
+        "gif": "./gifs/wacky-showcase.gif",
+        "title": "Wacky Pins",
+        "description": "Bowling/Mini-Golf Fusion built using Phaser",
+        "playLink": "https://meyerphil.github.io/CMPM120-D3/",
+        "infoLink": "/projects/last-extraction/",
+        "work": [
+            "Physics-Based Level Design",
+            "Ball-Launching Mechanic using Math Formulas",
+            "Pin Position Check and Formation Function"
+        ]
+    },
+    {
+        "image": "./images/last-extract-1.png",
+        "gif": "./gifs/purple-game.gif",
+        "title": "The Last Extraction",
+        "description": "Dual Narrative built using Phaser",
+        "playLink": "https://philm3r.itch.io/the-last-extraction",
+        "infoLink": "/projects/last-extraction/",
+        "work": [
+            "UI Implementation and Dialog 'typing' effect",
+            "Split-Screen Player Controllers and Actions",
+            "Dual Scene Loading System",
+            "Published to Itch.io"
+        ]
+    },
+    {
+        "image": "./images/sushi.png",
+        "gif": "./gifs/sushi-game.gif",
+        "title": "Star Surf Sushi",
+        "description": "Mobile Friendly Sushi Tycoon built using Phaser",
+        "playLink": "https://meyerphil.github.io/Sushi-game/main.html",
+        "infoLink": "/projects/star-sushi/",
+        "work": [
+            "Implemented Sushi Recipes, Customers",
+            "Added Progression of Supply, Cash, Stats",
+            "End of Day Results and Fish Supply Shop",
+            "Integrated Art Assets to create Dynamic UI",
+            "JSON-driven Tutorial with Video Example",
+            "Used Browser Cookie to save music setting"
+        ]
+    },
+
+    {
+        "image": "./images/midterm.png",
+        "gif": "./gifs/office-showcase.gif",
+        "title": "Office Clipboard Alpha",
+        "description": "Experience built using Unity",
+        "playLink": "https://office-alpha.com",
+        "infoLink": "/projects/office-alpha/",
+        "work": [
+            "VR Interactable Clipboard and Pens",
+            "Drawable Notebook Paper",
+            "2D 'Drawn Ink' to 3D 'Doodle' System",
+            "Art",
+            "Environment"
+        ]
+    },
+    {
+        "image": "./images/red-trees-2.png",
+        "gif": "./gifs/RTRC-showcase.gif",
+        "title": "RED TREES RAIL. CO.",
+        "description": "Experience built using Unity",
+        "playLink": "https://store.steampowered.com/app/2967460/RED_TREES_RAIL_CO/",
+        "infoLink": "/projects/redtrees-railco/",
+        "work": [
+            "Real World Counterpart Research",
+            "VR Interactions of Steam Locomotive",
+            "Modeling of Objects and Environment",
+            "All Animations",
+            "Scripting of Events and Audio",
+            "Notebook and Passenger Queue System"
+        ]
+    }
+
+]
