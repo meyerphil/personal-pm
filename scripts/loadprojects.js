@@ -4,12 +4,38 @@ async function loadProjects(sortBy = null) {
     const response = await fetch('projects.json');
     const projects = await response.json();
 
-    // Sort projects based on the sortBy criterion
-     projects.sort((a, b) => {
+    // Custom order array
+    const customOrder = {
+        'technology' : ['Unity', 'WebGL/GLSL','WebGL/Three.JS', 'Construct3', 'Phaser', 'CrispGameLib', 'HTML/P5.JS', 'Twine'],
+
+        };
+    
+    const reType = {
+        'WebGL/GLSL': 'WebGL',
+        'WebGL/Three.JS': 'WebGL',
+        undefined : 'My Work!',
+    }
+
+    if(customOrder[sortBy]){
+
+        projects.sort((a, b) => {
+            console.log(customOrder[sortBy].indexOf(a[sortBy]));
+            console.log(customOrder[sortBy].indexOf(b[sortBy]));
+            return customOrder[sortBy].indexOf(a[sortBy]) - customOrder[sortBy].indexOf(b[sortBy]);
+        });
+
+    } else {
+
+        // Sort projects based on the sortBy criterion
+        projects.sort((a, b) => {
             if (a[sortBy] < b[sortBy]) return -1;
             if (a[sortBy] > b[sortBy]) return 1;
             return 0;
-    });
+        });
+
+    }
+
+
 
 
     const projectsContainer = document.getElementById('projectsContainer');
@@ -17,10 +43,16 @@ async function loadProjects(sortBy = null) {
     let IDindex = 0;
     let lastType = null;
     projects.forEach(project => {
-        if(lastType === null || lastType !== project[sortBy]){
+        let sortType = project[sortBy];
+
+        if(reType[project[sortBy]]){
+            sortType = reType[project[sortBy]];
+        }
+        
+        if(lastType === null || lastType !== sortType){
             const headerDiv = document.createElement('div');
             headerDiv.className = 'title';
-            headerDiv.innerHTML = `${project[sortBy]}`;
+            headerDiv.innerHTML = `${sortType}`;
             projectsContainer.appendChild(headerDiv);
 
             IDindex++;
@@ -30,7 +62,7 @@ async function loadProjects(sortBy = null) {
             projectsContainer.appendChild(projectGrid);
         }
         document.getElementById(`p${IDindex}`).appendChild(createProjectHTML(project));
-        lastType = project[sortBy];
+        lastType = sortType;
     });
 }
 
