@@ -4,7 +4,8 @@
         "image": "./images/shadow-high.png",
         "gif": "./gifs/shadow-showcase.gif",
         "title": "Shadow Cave",
-        "description": "VR Prototype built using Unity",
+        "description": "VR Prototype",
+        "technology": "Unity",
         "infoLink": "/projects/shadow-cave/",
         "work": [
             "Coded the Gesture Recognition for Hand Tracking",
@@ -18,7 +19,8 @@
         "image": "./images/stadium-90.png",
         "gif": "./gifs/stadium-showcase.gif",
         "title": "Stadium Ghouls",
-        "description": "Horror Game built using Unity",
+        "description": "Horror Game",
+        "technology": "Unity",
         "infoLink": "/projects/stadium-ghouls/",
         "work": [
             "Constructed First Person Movement and Camera",
@@ -32,7 +34,8 @@
         "image": "./images/fright_close.png",
         "gif": "./gifs/fright-showcase.gif",
         "title": "The Fun Frightful Walking Simulator",
-        "description": "Experience built using Unity",
+        "description": "Experience",
+        "technology": "Unity",
         "infoLink": "/projects/fun-frightful-walking/",
         "work": [
             "Upgraded my First Person Movement and Camera controller",
@@ -46,7 +49,8 @@
         "image": "./images/gameboy_break.png",
         "gif": "./gifs/break-fp.gif",
         "title": "Retro-Active",
-        "description": "Published Game built using Unity",
+        "description": "Published Game",
+        "technology": "Unity",
         "playLink": "https://ichigo33.itch.io/retro-active",
         "infoLink": "/projects/retro-active/",
         "work": [
@@ -61,7 +65,8 @@
         "image": "./images/OAOA-2.png",
         "gif": "./gifs/OAOA-showcase.gif",
         "title": "One Algo Over All",
-        "description": "Dual Narrative built using Unity",
+        "description": "Dual Narrative",
+        "technology": "Unity",
         "playLink": "https://meyerphil.github.io/HUMN45-FinalProject/",
         "infoLink": "/projects/one-algo-over-all/",
         "work": [
@@ -76,7 +81,8 @@
         "image": "./images/dodger.png",
         "gif": "./gifs/dodger-play.gif",
         "title": "Block Dodger",
-        "description": "One-Button Survival built using CrispGameLib",
+        "description": "One-Button Survival",
+        "technology": "CrispGameLib",
         "playLink": "https://meyerphil.github.io/block-dodger/index.html?mygame",
         "work": [
             "Game Design / Ideation",
@@ -89,7 +95,8 @@
         "image": "./images/idego.png",
         "gif": "./gifs/idego-showcase.gif",
         "title": "Id & Ego",
-        "description": "Hack-n-Slash Platformer built using Construct3",
+        "description": "Hack-n-Slash Platformer",
+        "technology": "Construct3",
         "playLink": "https://meyerphil.github.io/Id-Igo/",
         "infoLink": "/projects/id-and-ego/",
         "work": [
@@ -102,7 +109,8 @@
         "image": "./images/ship-2-c.png",
         "gif": "./gifs/ship-showcase.gif",
         "title": "Abandoned Ship",
-        "description": "Horror Link-based Game built using Twine",
+        "description": "Horror Link-based Game",
+        "technology": "Twine",
         "playLink": "https://meyerphil.github.io/abandon-ship/",
         "infoLink": "/projects/abandoned-ship/",
         "work": [
@@ -116,7 +124,8 @@
         "image": "./images/doodle4-crop.png",
         "gif": "./gifs/forest-draw.gif",
         "title": "Doodlebob",
-        "description": "Collaborative Drawing App built on HTML/P5.JS",
+        "description": "Collaborative Drawing App",
+        "technology": "HTML/P5.JS",
         "playLink": "https://doodlebob-art101.herokuapp.com/",
         "infoLink": "/projects/doodlebob/",
         "work": [
@@ -131,7 +140,8 @@
         "image": "./images/asg3-screengrab.png",
         "gif": "./gifs/asg3-showcase.gif",
         "title": "BuildBreak World",
-        "description": "Demo built using WebGL/GLSL",
+        "description": "Demo",
+        "technology": "WebGL/GLSL",
         "work": [
             "First-Person Movement",
             "Camera Rotation with Mouse Drag",
@@ -145,7 +155,8 @@
         "image": "./images/asg4-screengrab.png",
         "gif": "./gifs/asg4-showcase.gif",
         "title": "Lighting the Room",
-        "description": "Demo built using WebGL/GLSL",
+        "description": "Demo",
+        "technology": "WebGL/GLSL",
         "work": [
             "Created Environment and 'Phong' Lighting",
             "Spotlight to Focus Light in a Direction",
@@ -156,7 +167,8 @@
         "image": "./images/asg5-screengrab.png",
         "gif": "./gifs/asg5-showcase.gif",
         "title": "The Foggy Statue",
-        "description": "Demo built using WebGL/Three.JS",
+        "description": "Demo",
+        "technology": "WebGL/Three.JS",
         "work": [
             "Created Scene and Environment",
             "Imported Custom 3D Models",
@@ -170,7 +182,8 @@
         "image": "./images/color-2.png",
         "gif": "./gifs/color-showcase.gif",
         "title": "Color Inside",
-        "description": "2D Reverie Platformer (Phaser)",
+        "description": "2D Reverie Platformer",
+        "technology": "Phaser",
         "playLink": "https://meyerphil.github.io/ColorInsideGame/",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -185,7 +198,8 @@
         "image": "./images/house-2.png",
         "gif": "./gifs/house-showcase.gif",
         "title": "Escape the House",
-        "description": "Horror Adventure Game built using Phaser",
+        "description": "Horror Adventure Game",
+        "technology": "Phaser",
         "playLink": "https://meyerphil.github.io/CMPM120Adventure/",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -199,7 +213,8 @@
         "image": "./images/wackypin.png",
         "gif": "./gifs/wacky-showcase.gif",
         "title": "Wacky Pins",
-        "description": "Bowling/Mini-Golf Fusion built using Phaser",
+        "description": "Bowling/Mini-Golf Fusion",
+        "technology": "Phaser",
         "playLink": "https://meyerphil.github.io/CMPM120-D3/",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -212,7 +227,8 @@
         "image": "./images/last-extract-1.png",
         "gif": "./gifs/purple-game.gif",
         "title": "The Last Extraction",
-        "description": "Dual Narrative built using Phaser",
+        "description": "Dual Narrative",
+        "technology": "Phaser",
         "playLink": "https://philm3r.itch.io/the-last-extraction",
         "infoLink": "/projects/last-extraction/",
         "work": [
@@ -226,7 +242,8 @@
         "image": "./images/sushi.png",
         "gif": "./gifs/sushi-game.gif",
         "title": "Star Surf Sushi",
-        "description": "Mobile Friendly Sushi Tycoon built using Phaser",
+        "description": "Mobile Friendly Sushi Tycoon",
+        "technology": "Phaser",
         "playLink": "https://meyerphil.github.io/Sushi-game/main.html",
         "infoLink": "/projects/star-sushi/",
         "work": [
@@ -243,7 +260,8 @@
         "image": "./images/midterm.png",
         "gif": "./gifs/office-showcase.gif",
         "title": "Office Clipboard Alpha",
-        "description": "Experience built using Unity",
+        "description": "Draw-To-Life Experience",
+        "technology": "Unity",
         "playLink": "https://office-alpha.com",
         "infoLink": "/projects/office-alpha/",
         "work": [
@@ -258,7 +276,8 @@
         "image": "./images/red-trees-2.png",
         "gif": "./gifs/RTRC-showcase.gif",
         "title": "RED TREES RAIL. CO.",
-        "description": "Experience built using Unity",
+        "description": "Horror Train Simulator",
+        "technology": "Unity",
         "playLink": "https://store.steampowered.com/app/2967460/RED_TREES_RAIL_CO/",
         "infoLink": "/projects/redtrees-railco/",
         "work": [

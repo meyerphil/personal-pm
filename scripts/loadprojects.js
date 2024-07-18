@@ -36,7 +36,7 @@ function createProjectHTML(project) {
                     <img class="projectGif" src="${project.gif}" alt="${project.title}">
                     <p class="projectText">
                         <b>${project.title}</b>
-                        <br> ${project.description}
+                        <br> ${project.description} <i>(${project.technology})</i>
                         <br>
                         ${playButtonHTML}${infoButtonHTML}
                         <ul>${project.work.map(item => `<li>${item}</li>`).join('')}</ul>
