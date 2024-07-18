@@ -1,4 +1,12 @@
-document.addEventListener('DOMContentLoaded', loadProjects("technology"));
+document.addEventListener('DOMContentLoaded', () => {
+    const sortDropdown = document.getElementById('sortDrop');
+    sortDropdown.addEventListener('change', (event) => {
+        loadProjects(event.target.value);
+    });
+
+    // Load projects with default sorting
+    loadProjects(sortDropdown.value);
+});
 
 async function loadProjects(sortBy = null) {
     const response = await fetch('projects.json');
@@ -13,20 +21,28 @@ async function loadProjects(sortBy = null) {
     const reType = {
         'WebGL/GLSL': 'WebGL',
         'WebGL/Three.JS': 'WebGL',
+        'playLink': ['Not Playable', 'Playable'],
+        'infoLink': ['No Further Info', 'More Info Available'],
         undefined : 'My Work!',
     }
 
-    if(customOrder[sortBy]){
+    if (sortBy === 'playLink' || sortBy === 'infoLink') {
 
+        // sort by binary option(property exists)
         projects.sort((a, b) => {
-            console.log(customOrder[sortBy].indexOf(a[sortBy]));
-            console.log(customOrder[sortBy].indexOf(b[sortBy]));
+            return (b[sortBy] ? 1 : 0) - (a[sortBy] ? 1 : 0);
+        });
+    
+    } else if(customOrder[sortBy]){
+
+        // Sort projects using custom catagory order
+        projects.sort((a, b) => {
             return customOrder[sortBy].indexOf(a[sortBy]) - customOrder[sortBy].indexOf(b[sortBy]);
         });
 
     } else {
 
-        // Sort projects based on the sortBy criterion
+        // Sort projects alphabetically criterion
         projects.sort((a, b) => {
             if (a[sortBy] < b[sortBy]) return -1;
             if (a[sortBy] > b[sortBy]) return 1;
@@ -39,13 +55,17 @@ async function loadProjects(sortBy = null) {
 
 
     const projectsContainer = document.getElementById('projectsContainer');
+    projectsContainer.innerHTML = '';  // Clear any existing content
     
     let IDindex = 0;
     let lastType = null;
     projects.forEach(project => {
         let sortType = project[sortBy];
 
-        if(reType[project[sortBy]]){
+        if (sortBy === 'playLink' || sortBy === 'infoLink') {
+            sortType = reType[sortBy][project[sortBy] ? 1 : 0];
+            
+        } else if(reType[project[sortBy]]){
             sortType = reType[project[sortBy]];
         }
         
