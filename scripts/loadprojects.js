@@ -1,12 +1,36 @@
-document.addEventListener('DOMContentLoaded', loadProjects);
+document.addEventListener('DOMContentLoaded', loadProjects("technology"));
 
-async function loadProjects() {
+async function loadProjects(sortBy = null) {
     const response = await fetch('projects.json');
     const projects = await response.json();
 
+    // Sort projects based on the sortBy criterion
+     projects.sort((a, b) => {
+            if (a[sortBy] < b[sortBy]) return -1;
+            if (a[sortBy] > b[sortBy]) return 1;
+            return 0;
+    });
+
+
     const projectsContainer = document.getElementById('projectsContainer');
+    
+    let IDindex = 0;
+    let lastType = null;
     projects.forEach(project => {
-        projectsContainer.appendChild(createProjectHTML(project));
+        if(lastType === null || lastType !== project[sortBy]){
+            const headerDiv = document.createElement('div');
+            headerDiv.className = 'title';
+            headerDiv.innerHTML = `${project[sortBy]}`;
+            projectsContainer.appendChild(headerDiv);
+
+            IDindex++;
+            const projectGrid = document.createElement('div');
+            projectGrid.className = 'projectGrid';
+            projectGrid.id = `p${IDindex}`;
+            projectsContainer.appendChild(projectGrid);
+        }
+        document.getElementById(`p${IDindex}`).appendChild(createProjectHTML(project));
+        lastType = project[sortBy];
     });
 }
 
