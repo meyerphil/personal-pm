@@ -51,13 +51,19 @@ function createProjectHTML(project) {
 
     if(project.more_info !== undefined){
 
-        Object.keys(project.more_info).forEach(key => {
-            moreinfoHTML += `<p class = "text"> 
-                                <b>${key}</b>
-                                <br>
-                                <br>${project.more_info[key]}
-                            </p>
-                            `
+        project.more_info.forEach(info => {
+            if (info.type === 'image') {
+              moreinfoHTML += `<p class="text">
+                                  <img src="${info.path}" alt="${info.subtitle}">
+                                  <br>
+                                  <b>${info.subtitle}</b>
+                               </p>`;
+            } else if (info.type === 'text') {
+              moreinfoHTML += `<p class="text">
+                                  <b>${info.header}</b>
+                                  <br>${info.data}
+                               </p>`;
+            }
         });
 
     } else {
