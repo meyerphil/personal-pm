@@ -10,8 +10,12 @@ async function loadProjects() {
 
     const projectsContainer = document.getElementById('projectsContainer');
     projectsContainer.innerHTML = '';  // Clear any existing content
+
+    // Extract project title from the hash fragment
+    // EX. meyerphil.com/projects/p/#The%20Last%20Extraction
+    const projectTitle = decodeURIComponent(window.location.hash.substring(1));
     
-    let project = projects.find(p => p.title === "The Last Extraction");
+    let project = projects.find(p => p.title === projectTitle);
 
     document.querySelector('.title').innerHTML = project.title;
     document.querySelector('.subtitle').innerHTML = project.description;
