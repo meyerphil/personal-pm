@@ -27,6 +27,8 @@ async function loadProjects() {
         document.querySelector('.title').innerHTML = project.title;
         document.querySelector('.subtitle').innerHTML = project.description;
 
+        document.getElementsByClassName('background-image')[0].style.backgroundImage = `url(${project.image})`;
+
         projectsContainer.appendChild(createProjectHTML(project));
     } else {
         document.title = 'No Project Found';
