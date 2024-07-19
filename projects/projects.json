@@ -161,8 +161,8 @@
             
             { "type": "text", "header": "What part did you do?", "data": "I did most of the underlying code for the drawing feature. I added some extra features too on the drawing page."},
             { "type": "text", "header": "What skills does it demonstrate?", "data": " Technical programming. I could work off the foundation that my groupmate made, learn his code, and expand upon it. I was able to utilize a server to optimize saving the canvas instance and sharing its changes to users. I also added a prompt generated, user colors, and the ability to set your name."},
-            { "type": "image", "path": "/projects/images/doodle4-crop.png", "subtitle" : "test"},
-            { "type": "text", "header": "What would you do differently if you started this over?", "data": " I would have started on it early with my group. I think that the art and overall presentation could have been more polished. The title page is much cleaner compared to the actual drawing page, their design is not consistent."},
+            { "type": "image", "path": "/projects/images/pages/doodlebob-playground.png", "subtitle" : "Playground created by multiple people"},
+            { "type": "text", "header": "What would you do differently if you started this over?", "data": " I would have started on it early with my group. I think that the art and overall presentation could have been more polished. The title page is much cleaner compared to the actual drawing page I designed."},
             { "type": "text", "header": "What other work does this make you want to do?", "data": " I would like to explore the limitations and wild things I could create in browsers. Maybe a game that requires multiple browsers to be opened across devices?"},
             { "type": "text", "header": "Other thoughts about this piece:", "data": "I love how it came out. The concept was really fun. It was funny seeing 100 students in the class collectively join and try to draw a cat or a beach together. It was wacky and wild."}
         
