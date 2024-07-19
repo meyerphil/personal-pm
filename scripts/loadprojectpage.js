@@ -47,7 +47,16 @@ function createProjectHTML(project) {
         playButtonHTML = `<a href="${project.playLink}">Play on ${project.published}</a>`;
     }
 
+    let moreinfoHTML = '';
 
+    Object.keys(project.more_info).forEach(key => {
+        moreinfoHTML += `<p class = "text"> 
+                            <b>${key}</b>
+                            <br>
+                            <br>${project.more_info[key]}
+                        </p>
+                        `
+    });
 
     projectDiv.innerHTML = `            
             <div class="projectBox">
@@ -63,15 +72,10 @@ function createProjectHTML(project) {
                 </center>
             </div>
 
-            <div>
+            <img class="projectImage" src="/projects/${project.image}" alt="${project.title}">
             
-                <p class = "text">
-                ${project.description} ${project.description} ${project.description}
-                </p>
+            ${moreinfoHTML}
 
-                <img class="projectImage" src="/projects/${project.image}" alt="${project.title}">
-
-            </div>
     `;
 
     return projectDiv;
