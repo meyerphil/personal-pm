@@ -1,11 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
     const sortDropdown = document.getElementById('sortDrop');
-    sortDropdown.addEventListener('change', (event) => {
-        loadProjects(event.target.value);
-    });
 
-    // Load projects with default sorting
+    // Load the saved sort value from localStorage, if it exists
+    const savedSortValue = localStorage.getItem('selectedSort');
+    if (savedSortValue) {
+        sortDropdown.value = savedSortValue;
+    }
+
+    // Load projects with the saved or default sorting
     loadProjects(sortDropdown.value);
+
+    sortDropdown.addEventListener('change', (event) => {
+        const selectedValue = event.target.value;
+
+        // Save the selected value to localStorage
+        localStorage.setItem('selectedSort', selectedValue);
+
+        // Load projects with the selected sorting
+        loadProjects(selectedValue);
+    });
 });
 
 async function loadProjects(sortBy = null) {
