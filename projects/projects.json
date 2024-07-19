@@ -8,7 +8,6 @@
         "technology": "Unity",
         "published": "Steam",
         "playLink": "https://store.steampowered.com/app/2967460/RED_TREES_RAIL_CO/",
-        "infoLink": "/projects/redtrees-railco/",
         "work": [
             "Real World Counterpart Research",
             "VR Interactions of Steam Locomotive",
@@ -26,7 +25,6 @@
         "title": "Office Clipboard Alpha",
         "description": "VR Draw-To-Life Experience",
         "technology": "Unity",
-        "infoLink": "/projects/office-alpha/",
         "work": [
             "VR Interactable Clipboard and Pens",
             "Drawable Notebook Paper",
@@ -42,7 +40,6 @@
         "title": "Shadow Cave",
         "description": "VR Prototype",
         "technology": "Unity",
-        "infoLink": "/projects/shadow-cave/",
         "work": [
             "Coded the Gesture Recognition for Hand Tracking",
             "3D Models for Cave and Scissors made in Blender",
@@ -61,7 +58,6 @@
         "technology": "Unity",
         "published": "Itch.io",
         "playLink": "https://ichigo33.itch.io/retro-active",
-        "infoLink": "/projects/retro-active/",
         "work": [
             "Team Leader and Recruited Members",
             "Game Idea and Design",
@@ -78,7 +74,6 @@
         "title": "The Fun Frightful Walking Simulator",
         "description": "Experience",
         "technology": "Unity",
-        "infoLink": "/projects/fun-frightful-walking/",
         "work": [
             "Upgraded my First Person Movement and Camera controller",
             "Scripting of Events and Player Detection",
@@ -95,7 +90,6 @@
         "title": "Stadium Ghouls",
         "description": "Horror Game",
         "technology": "Unity",
-        "infoLink": "/projects/stadium-ghouls/",
         "work": [
             "Constructed First Person Movement and Camera",
             "AI configuration for Ghouls",
@@ -114,7 +108,6 @@
         "technology": "Unity",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/HUMN45-FinalProject/",
-        "infoLink": "/projects/one-algo-over-all/",
         "work": [
             "Team Lead and Designer",
             "2D Player Controller",
@@ -149,7 +142,6 @@
         "technology": "HTML/P5.JS",
         "published": "Heroku",
         "playLink": "https://doodlebob-art101.herokuapp.com/",
-        "infoLink": "/projects/doodlebob/",
         "work": [
             "Multiple Clients can draw on Server Canvas",
             "User List with User Colors and Name Input",
@@ -178,7 +170,6 @@
         "technology": "Construct3",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/Id-Igo/",
-        "infoLink": "/projects/id-and-ego/",
         "work": [
             "Player Movement/Shooting Mechanics",
             "Dodging Ability",
@@ -195,7 +186,6 @@
         "technology": "Twine",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/abandon-ship/",
-        "infoLink": "/projects/abandoned-ship/",
         "work": [
             "Dreadful Concept Design and Writing",
             "Condition-based Scripting and Endings",
@@ -259,7 +249,6 @@
         "technology": "Phaser",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/Sushi-game/main.html",
-        "infoLink": "/projects/star-sushi/",
         "work": [
             "Implemented Sushi Recipes, Customers",
             "Added Progression of Supply, Cash, Stats",
@@ -279,7 +268,6 @@
         "technology": "Phaser",
         "published": "Itch.io",
         "playLink": "https://philm3r.itch.io/the-last-extraction",
-        "infoLink": "/projects/last-extraction/",
         "work": [
             "UI Implementation and Dialog 'typing' effect",
             "Split-Screen Player Controllers and Actions",
@@ -298,7 +286,6 @@
         "technology": "Phaser",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/CMPM120-D3/",
-        "infoLink": "/projects/last-extraction/",
         "work": [
             "Physics-Based Level Design",
             "Ball-Launching Mechanic using Math Formulas",
@@ -315,7 +302,6 @@
         "technology": "Phaser",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/CMPM120Adventure/",
-        "infoLink": "/projects/last-extraction/",
         "work": [
             "Dreadful Concept Design and Writing",
             "Condition-based Scripting and Endings",
@@ -333,7 +319,6 @@
         "technology": "Phaser",
         "published": "Github Pages",
         "playLink": "https://meyerphil.github.io/ColorInsideGame/",
-        "infoLink": "/projects/last-extraction/",
         "work": [
             "Programming and Implementation",
             "2D Controller and Geometric Shooting",

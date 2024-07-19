@@ -27,13 +27,13 @@ async function loadProjects(sortBy = null) {
         'WebGL/GLSL': 'WebGL',
         'WebGL/Three.JS': 'WebGL',
         'playLink': ['Not Playable', 'Playable'],
-        'infoLink': ['No Further Info', 'More Info Available'],
+        'more_info': ['No Further Info', 'More Info Available'],
         'published' : 'Not Published',
         '' : 'Unsorted',
         undefined : 'N/A',
     }
 
-    if (sortBy === 'playLink' || sortBy === 'infoLink') {
+    if (sortBy === 'playLink' || sortBy === 'more_info') {
 
         // sort by binary option(property exists)
         projects.sort((a, b) => {
@@ -69,7 +69,7 @@ async function loadProjects(sortBy = null) {
     projects.forEach(project => {
         let sortType = project[sortBy];
 
-        if (sortBy === 'playLink' || sortBy === 'infoLink') {
+        if (sortBy === 'playLink' || sortBy === 'more_info') {
             sortType = reType[sortBy][project[sortBy] ? 1 : 0];
             
         }else if(sortType === undefined){
@@ -109,7 +109,7 @@ function createProjectHTML(project) {
     if (project.playLink) {
         playButtonHTML = `<a href="${project.playLink}">Play on ${project.published}</a>`;
 
-        if (project.infoLink) {
+        if (project.more_info) {
             infoButtonHTML = `<span style="display: inline-block; width: 2em;"></span><a href=/projects/p/#${encodeURIComponent(project.title)}>Info</a>`;
             gifHTML = `
             <a href=/projects/p/#${encodeURIComponent(project.title)}>
@@ -117,7 +117,7 @@ function createProjectHTML(project) {
             </a>
             `;
         }
-    } else if (project.infoLink) {
+    } else if (project.more_info) {
         infoButtonHTML = `<a href=/projects/p/#${encodeURIComponent(project.title)}>Info</a>`;
         gifHTML = `
         <a href=/projects/p/#${encodeURIComponent(project.title)}>
