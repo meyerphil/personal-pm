@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     loadProjects();
 });
 
+window.navigation.addEventListener("navigate", () => {
+    loadProjects();
+});
+
 async function loadProjects() {
     const response = await fetch('/projects/projects.json');
     const projects = await response.json();
@@ -17,11 +21,19 @@ async function loadProjects() {
     
     let project = projects.find(p => p.title === projectTitle);
 
-    document.title = project.title;
-    document.querySelector('.title').innerHTML = project.title;
-    document.querySelector('.subtitle').innerHTML = project.description;
+    if(project !== undefined){
+        document.title = project.title;
+        document.querySelector('.title').innerHTML = project.title;
+        document.querySelector('.subtitle').innerHTML = project.description;
 
-    projectsContainer.appendChild(createProjectHTML(project));
+        projectsContainer.appendChild(createProjectHTML(project));
+    } else {
+        document.querySelector('.title').innerHTML = 'No Project Found';
+        document.querySelector('.subtitle').innerHTML = '';
+        console.log('no project found');
+    }
+
+    
 }
 
 function createProjectHTML(project) {
