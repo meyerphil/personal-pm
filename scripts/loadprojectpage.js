@@ -29,6 +29,7 @@ async function loadProjects() {
 
         projectsContainer.appendChild(createProjectHTML(project));
     } else {
+        document.title = 'No Project Found';
         document.querySelector('.title').innerHTML = 'No Project Found';
         document.querySelector('.subtitle').innerHTML = '';
         console.log('no project found');
