@@ -46,6 +46,20 @@
             "Animation of Scissors",
             "Ideation/Design of Game and Puzzles",
             "Shadow Interactions System"
+        ],
+        "more_info": [
+            { "type": "text", "header": "What part did you do?", "data": "I did everything besides foundational things (Unity game engine, Oculus Integration). I did the 3D models, ray tracing, lighting, and level design."},
+            { "type": "image", "path": "/projects/images/pages/cave.png", "subtitle" : "Initial Concept Design"},
+            { "type": "text", "header": "What skills does it demonstrate?", "data": "Concept Design, Level Design, System Design, Programming. I took inspiration from Greek philosopher Plato and his metaphorical story of a cave. I used that to develop a prototype for a game that utilizes hand tracking to create shadow puppets interacting with the shadow world in the cave. I created a gesture recognition system in code and utilized a ray tracing system to simulate interaction between shadows. I learned Blender to 3D model the shadow puppets (e.g., a pair of scissors). I also had to determine the types of actions the user could perform (e.g., cut string, create a shield)."},
+            { "type": "image", "path": "/projects/images/pages/cave-gesture-diagram.png", "subtitle" : "Shadow Hand-Tracking Concept"},
+            { "type": "image", "path": "/projects/images/pages/cave-level-design.png", "subtitle" : "Potential Level Design"},
+            { "type": "image", "path": "/projects/images/pages/cave-level.png", "subtitle" : "Prototype Level with Obstacles"},
+            { "type": "text", "header": "What would you do differently if you started this over?", "data": "I had less than 2 weeks to work on it, including learning tools like Blender and Unity. I would definitely add more polish, build a more complete game, and include a title screen, more gameplay, and an ending. I definitely wanted to finish this and publish it on the Oculus Store."},
+            { "type": "image", "path": "/projects/images/pages/cave-raycast-concept.png", "subtitle" : "Ideation of Raycast Implementation"},
+            { "type": "image", "path": "/projects/images/pages/cave-raycast-motion.gif", "subtitle" : "Raycast and Environment Visualization"},
+            { "type": "text", "header": "What other work does this make you want to do?", "data": "It inspired me to explore the world of VR development. I believe this niche format of games is a fantastic space for creativity and innovation. I would love to work in the VR game industry."},
+            { "type": "text", "header": "Other thoughts about this piece:", "data": "I always enjoy looking back and thinking about how cool my concept was. It actually worked! With a sense of accomplishment and a new foundation in game development, this project was the start of my journey."},
+            { "type": "text", "header": "Final Reflection and Notes for Future Me", "data": "As a computer engineering major who has only completed freshman year, I was very nervous about taking my first upper-division course, which was also outside of my curriculum and skill set. I was unsure how I would stack up against other students who had taken game design courses, but I decided to challenge myself. I remember when we shared our ideas with the class, I felt that my goals were too ambitious. Surprisingly, I was able to turn my idea into a working prototype.<br><br>I feel like this course can be great for anyone willing to learn and put in the effort. This is a true reflection of what a college education should look like, and I do not regret it at all. We trained on how to think like a college student with concepts, industry discussions, and applications of our skills to future technology. It is not a repetitive course where you memorize problems or read a textbook; instead, it is an impactful and extensive learning experience.<br><br>I am very thankful for this opportunity. If there is one thing to remember, 'if you set your mind to big ideas, you can achieve them.' In terms of motivation, 'remember the purpose of college and how it improves you as a person, student, and creator.'"}
         ]
     },
 
@@ -152,7 +166,7 @@
         "more_info": [
             
             { "type": "text", "header": "What part did you do?", "data": "I did most of the underlying code for the drawing feature. I added some extra features too on the drawing page."},
-            { "type": "text", "header": "What skills does it demonstrate?", "data": " Technical programming. I could work off the foundation that my groupmate made, learn his code, and expand upon it. I was able to utilize a server to optimize saving the canvas instance and sharing its changes to users. I also added a prompt generated, user colors, and the ability to set your name."},
+            { "type": "text", "header": "What skills does it demonstrate?", "data": " Technical programming. I could work off the foundation that my groupmate made, learn his code, and expand upon it. I was able to utilize a server to optimize saving the canvas instance and sharing its changes to users. I also added a prompt generator, user colors, and the ability to set your name."},
             { "type": "image", "path": "/projects/images/pages/doodlebob-playground.png", "subtitle" : "Playground created by multiple people"},
             { "type": "text", "header": "What would you do differently if you started this over?", "data": " I would have started on it early with my group. I think that the art and overall presentation could have been more polished. The title page is much cleaner compared to the actual drawing page I designed."},
             { "type": "text", "header": "What other work does this make you want to do?", "data": " I would like to explore the limitations and wild things I could create in browsers. Maybe a game that requires multiple browsers to be opened across devices?"},
@@ -174,6 +188,13 @@
             "Player Movement/Shooting Mechanics",
             "Dodging Ability",
             "Boss AI"
+        ],
+        "more_info": [
+            { "type": "text", "header": "What part did you do?", "data": "I did the movement mechanics and the enemy boss code."},
+            { "type": "text", "header": "What skills does it demonstrate?", "data": "Technical programming, design. Learning how to create states for boss attacks and designing each phases' attacks. Also learning how to create a dodge mechanic, then implementing it correctly so it feels nice."},
+            { "type": "text", "header": "What would you do differently if you started this over?", "data": "I would try to fix the melee weapon’s usefulness. It seems to actually cause the player harm rather than good. I would also add a title screen or an extra level."},
+            { "type": "text", "header": "What other work does this make you want to do?", "data": "I want to try designing a 2D platformer that requires skill and practice to complete. This gameplay loop would reward the player's time spent playing."},
+            { "type": "text", "header": "Other thoughts about this piece:", "data": "I really like how this game came out; the team went above and beyond in design for a lower division class."}
         ]
     },
 
@@ -190,6 +211,13 @@
             "Dreadful Concept Design and Writing",
             "Condition-based Scripting and Endings",
             "3-Digit Code Input for Locked Door"
+        ],
+        "more_info": [
+            { "type": "text", "header": "What part did you do?", "data": "I did the writing, scripting, and design. I didn’t create the images, they were found on the internet."},
+            { "type": "text", "header": "What skills does it demonstrate?", "data": "Concept Design, Scripting, Programming, Writing. It shows that I can create a concept from a simple narrative prompt into a playable text adventure. That I can implement something like inputting a correct code to unlock an area or a bunch of conditional-based text. I can also create imagery and a sense of dread or fear in writing."},
+            { "type": "text", "header": "What would you do differently if you started this over?", "data": "I would try to create more flow within the game. Maybe have a map made, if that is possible in Twine, so the player doesn’t get lost. Also try to have original artwork or images, adding audio too."},
+            { "type": "text", "header": "What other work does this make you want to do?", "data": "This made me want to explore development of creepy experiences in games, working in a horror-genre if you will."},
+            { "type": "text", "header": "Other thoughts about this piece:", "data": "Looking back I am impressed with its simplicity but also its fun. I think using a link-based game engine is much different compared to a very universal game engine like Unity or Unreal."}
         ]
     },
 

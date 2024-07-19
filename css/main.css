@@ -19,6 +19,7 @@ body {
 
 .background-image{
   background-image: url('/images/building.jpg');
+  filter: brightness(60%); 
   background-size: cover; /* Scale the image to cover the entire element */
   background-attachment: scroll; /* Fix the image in place during scrolling */
   background-position: 50% 60%; /* Position the image */
