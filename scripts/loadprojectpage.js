@@ -74,7 +74,7 @@ function createProjectHTML(project) {
     projectDiv.innerHTML = `            
             <div class="projectBox">
                 <center>
-                    <img class="projectGif" src="/projects/${project.gif}" alt="${project.title}">
+                    <img class="projectGif" src="${project.gif}" alt="${project.title}">
                     <p class="projectText">
                         <b>${project.title}</b>
                         <br> ${project.description} <i>(${project.technology})</i>
@@ -85,7 +85,7 @@ function createProjectHTML(project) {
                 </center>
             </div>
 
-            <img class="projectImage" src="/projects/${project.image}" alt="${project.title}">
+            <img class="projectImage" src="${project.image}" alt="${project.title}">
             
             ${moreinfoHTML}
 

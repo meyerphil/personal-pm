@@ -1,8 +1,8 @@
 [
     {
         "timeline": "2024 Winter-Spring",
-        "image": "./images/red-trees-2.png",
-        "gif": "./gifs/RTRC-showcase.gif",
+        "image": "/projects/images/red-trees-2.png",
+        "gif": "/projects/gifs/RTRC-showcase.gif",
         "title": "RED TREES RAIL. CO.",
         "description": "VR Horror Train Simulator",
         "technology": "Unity",
@@ -21,8 +21,8 @@
 
     {
         "timeline": "2024 Spring",
-        "image": "./images/midterm.png",
-        "gif": "./gifs/office-showcase.gif",
+        "image": "/projects/images/midterm.png",
+        "gif": "/projects/gifs/office-showcase.gif",
         "title": "Office Clipboard Alpha",
         "description": "VR Draw-To-Life Experience",
         "technology": "Unity",
@@ -37,8 +37,8 @@
     },
     {
         "timeline": "2021 Summer",
-        "image": "./images/shadow-high.png",
-        "gif": "./gifs/shadow-showcase.gif",
+        "image": "/projects/images/shadow-high.png",
+        "gif": "/projects/gifs/shadow-showcase.gif",
         "title": "Shadow Cave",
         "description": "VR Prototype",
         "technology": "Unity",
@@ -54,8 +54,8 @@
 
     {
         "timeline": "2023 Fall",
-        "image": "./images/gameboy_break.png",
-        "gif": "./gifs/break-fp.gif",
+        "image": "/projects/images/gameboy_break.png",
+        "gif": "/projects/gifs/break-fp.gif",
         "title": "Retro-Active",
         "description": "Published Game",
         "technology": "Unity",
@@ -73,8 +73,8 @@
 
     {
         "timeline": "2023 Fall",
-        "image": "./images/fright_close.png",
-        "gif": "./gifs/fright-showcase.gif",
+        "image": "/projects/images/fright_close.png",
+        "gif": "/projects/gifs/fright-showcase.gif",
         "title": "The Fun Frightful Walking Simulator",
         "description": "Experience",
         "technology": "Unity",
@@ -90,8 +90,8 @@
 
     {
         "timeline": "2023 Fall",
-        "image": "./images/stadium-90.png",
-        "gif": "./gifs/stadium-showcase.gif",
+        "image": "/projects/images/stadium-90.png",
+        "gif": "/projects/gifs/stadium-showcase.gif",
         "title": "Stadium Ghouls",
         "description": "Horror Game",
         "technology": "Unity",
@@ -107,8 +107,8 @@
 
     {
         "timeline": "2024 Winter",
-        "image": "./images/OAOA-2.png",
-        "gif": "./gifs/OAOA-showcase.gif",
+        "image": "/projects/images/OAOA-2.png",
+        "gif": "/projects/gifs/OAOA-showcase.gif",
         "title": "One Algo Over All",
         "description": "Dual Narrative",
         "technology": "Unity",
@@ -125,8 +125,8 @@
     },
     {
         "timeline": "2023 Fall",
-        "image": "./images/dodger.png",
-        "gif": "./gifs/dodger-play.gif",
+        "image": "/projects/images/dodger.png",
+        "gif": "/projects/gifs/dodger-play.gif",
         "title": "Block Dodger",
         "description": "One-Button Survival",
         "technology": "CrispGameLib",
@@ -142,8 +142,8 @@
 
     {
         "timeline": "2022 Spring",
-        "image": "./images/doodle4-crop.png",
-        "gif": "./gifs/forest-draw.gif",
+        "image": "/projects/images/doodle4-crop.png",
+        "gif": "/projects/gifs/forest-draw.gif",
         "title": "Doodlebob",
         "description": "Collaborative Drawing App",
         "technology": "HTML/P5.JS",
@@ -171,8 +171,8 @@
 
     {
         "timeline": "2022 Spring",
-        "image": "./images/idego.png",
-        "gif": "./gifs/idego-showcase.gif",
+        "image": "/projects/images/idego.png",
+        "gif": "/projects/gifs/idego-showcase.gif",
         "title": "Id & Ego",
         "description": "Hack-n-Slash Platformer",
         "technology": "Construct3",
@@ -188,8 +188,8 @@
 
     {
         "timeline": "2022 Spring",
-        "image": "./images/ship-2-c.png",
-        "gif": "./gifs/ship-showcase.gif",
+        "image": "/projects/images/ship-2-c.png",
+        "gif": "/projects/gifs/ship-showcase.gif",
         "title": "Abandoned Ship",
         "description": "Horror Link-based Game",
         "technology": "Twine",
@@ -205,8 +205,8 @@
 
     {
         "timeline": "2022 Fall",
-        "image": "./images/asg5-screengrab.png",
-        "gif": "./gifs/asg5-showcase.gif",
+        "image": "/projects/images/asg5-screengrab.png",
+        "gif": "/projects/gifs/asg5-showcase.gif",
         "title": "The Foggy Statue",
         "description": "Demo",
         "technology": "WebGL/Three.JS",
@@ -221,8 +221,8 @@
 
     {
         "timeline": "2022 Fall",
-        "image": "./images/asg4-screengrab.png",
-        "gif": "./gifs/asg4-showcase.gif",
+        "image": "/projects/images/asg4-screengrab.png",
+        "gif": "/projects/gifs/asg4-showcase.gif",
         "title": "Lighting the Room",
         "description": "Demo",
         "technology": "WebGL/GLSL",
@@ -235,8 +235,8 @@
 
     {
         "timeline": "2022 Fall",
-        "image": "./images/asg3-screengrab.png",
-        "gif": "./gifs/asg3-showcase.gif",
+        "image": "/projects/images/asg3-screengrab.png",
+        "gif": "/projects/gifs/asg3-showcase.gif",
         "title": "BuildBreak World",
         "description": "Demo",
         "technology": "WebGL/GLSL",
@@ -252,8 +252,8 @@
 
     {
         "timeline": "2023 Spring",
-        "image": "./images/sushi.png",
-        "gif": "./gifs/sushi-game.gif",
+        "image": "/projects/images/sushi.png",
+        "gif": "/projects/gifs/sushi-game.gif",
         "title": "Star Surf Sushi",
         "description": "Mobile Friendly Sushi Tycoon",
         "technology": "Phaser",
@@ -272,8 +272,8 @@
 
     {
         "timeline": "2023 Spring",
-        "image": "./images/last-extract-1.png",
-        "gif": "./gifs/purple-game.gif",
+        "image": "/projects/images/last-extract-1.png",
+        "gif": "/projects/gifs/purple-game.gif",
         "title": "The Last Extraction",
         "description": "Dual Narrative",
         "technology": "Phaser",
@@ -291,8 +291,8 @@
     
     {
         "timeline": "2023 Spring",
-        "image": "./images/wackypin.png",
-        "gif": "./gifs/wacky-showcase.gif",
+        "image": "/projects/images/wackypin.png",
+        "gif": "/projects/gifs/wacky-showcase.gif",
         "title": "Wacky Pins",
         "description": "Bowling/Mini-Golf Fusion",
         "technology": "Phaser",
@@ -308,8 +308,8 @@
 
     {
         "timeline": "2023 Spring",
-        "image": "./images/house-2.png",
-        "gif": "./gifs/house-showcase.gif",
+        "image": "/projects/images/house-2.png",
+        "gif": "/projects/gifs/house-showcase.gif",
         "title": "Escape the House",
         "description": "Horror Adventure Game",
         "technology": "Phaser",
@@ -326,8 +326,8 @@
 
     {
         "timeline": "2023 Spring",
-        "image": "./images/color-2.png",
-        "gif": "./gifs/color-showcase.gif",
+        "image": "/projects/images/color-2.png",
+        "gif": "/projects/gifs/color-showcase.gif",
         "title": "Color Inside",
         "description": "2D Reverie Platformer",
         "technology": "Phaser",
