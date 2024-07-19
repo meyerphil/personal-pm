@@ -49,14 +49,21 @@ function createProjectHTML(project) {
 
     let moreinfoHTML = '';
 
-    Object.keys(project.more_info).forEach(key => {
-        moreinfoHTML += `<p class = "text"> 
-                            <b>${key}</b>
-                            <br>
-                            <br>${project.more_info[key]}
-                        </p>
-                        `
-    });
+    if(project.more_info !== undefined){
+
+        Object.keys(project.more_info).forEach(key => {
+            moreinfoHTML += `<p class = "text"> 
+                                <b>${key}</b>
+                                <br>
+                                <br>${project.more_info[key]}
+                            </p>
+                            `
+        });
+
+    } else {
+        console.log(`Project doesn't contain more info.`);
+    }
+
 
     projectDiv.innerHTML = `            
             <div class="projectBox">
