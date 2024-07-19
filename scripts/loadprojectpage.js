@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.navigation.addEventListener("navigate", () => {
+    console.log('hash refresh');
     loadProjects();
 });
 
@@ -41,15 +42,8 @@ function createProjectHTML(project) {
     projectDiv.className = 'project';
 
     let playButtonHTML = '';
-    let infoButtonHTML = '';
     if (project.playLink) {
         playButtonHTML = `<a href="${project.playLink}">Play on ${project.published}</a>`;
-
-        if (project.infoLink) {
-            infoButtonHTML = `<span style="display: inline-block; width: 2em;"></span><a href="${project.infoLink}">Info</a>`;
-        }
-    } else if (project.infoLink) {
-        infoButtonHTML = `<a href="${project.infoLink}">Info</a>`;
     }
 
 
@@ -62,7 +56,7 @@ function createProjectHTML(project) {
                         <b>${project.title}</b>
                         <br> ${project.description} <i>(${project.technology})</i>
                         <br>
-                        ${playButtonHTML}${infoButtonHTML}
+                        ${playButtonHTML}
                         <ul>${project.work.map(item => `<li>${item}</li>`).join('')}</ul>
                     </p>
                 </center>

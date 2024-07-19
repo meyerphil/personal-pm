@@ -100,16 +100,30 @@ function createProjectHTML(project) {
     const projectDiv = document.createElement('div');
     projectDiv.className = 'project';
 
+    // set defaults
     let playButtonHTML = '';
     let infoButtonHTML = '';
+    let gifHTML = `<img class="projectGif" src="${project.gif}" alt="${project.title}">`;
+
+
     if (project.playLink) {
         playButtonHTML = `<a href="${project.playLink}">Play on ${project.published}</a>`;
 
         if (project.infoLink) {
-            infoButtonHTML = `<span style="display: inline-block; width: 2em;"></span><a href="${project.infoLink}">Info</a>`;
+            infoButtonHTML = `<span style="display: inline-block; width: 2em;"></span><a href=/projects/p/#${encodeURIComponent(project.title)}>Info</a>`;
+            gifHTML = `
+            <a href=/projects/p/#${encodeURIComponent(project.title)}>
+                <img class="projectGif" src="${project.gif}" alt="${project.title}">
+            </a>
+            `;
         }
     } else if (project.infoLink) {
-        infoButtonHTML = `<a href="${project.infoLink}">Info</a>`;
+        infoButtonHTML = `<a href=/projects/p/#${encodeURIComponent(project.title)}>Info</a>`;
+        gifHTML = `
+        <a href=/projects/p/#${encodeURIComponent(project.title)}>
+            <img class="projectGif" src="${project.gif}" alt="${project.title}">
+        </a>
+        `;
     }
 
 
@@ -119,7 +133,7 @@ function createProjectHTML(project) {
             <img class="projectImage" src="${project.image}" alt="${project.title}">
             <div class="projectBox">
                 <center>
-                    <img class="projectGif" src="${project.gif}" alt="${project.title}">
+                    ${gifHTML}
                     <p class="projectText">
                         <b>${project.title}</b>
                         <br> ${project.description} <i>(${project.technology})</i>
