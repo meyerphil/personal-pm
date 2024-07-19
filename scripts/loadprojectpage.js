@@ -17,6 +17,7 @@ async function loadProjects() {
     
     let project = projects.find(p => p.title === projectTitle);
 
+    document.title = project.title;
     document.querySelector('.title').innerHTML = project.title;
     document.querySelector('.subtitle').innerHTML = project.description;
 
