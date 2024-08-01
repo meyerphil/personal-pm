@@ -71,7 +71,24 @@ function createProjectHTML(project) {
                                     <br><iframe src="${info.src}/embed?start=false&loop=true&delayms=5000" frameborder="0" width="685" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                     
                                  </p>`;
-              }
+            } else if (info.type === 'video') {
+                moreinfoHTML += `<p>
+                                    <iframe width="1000" height="600" src="${info.src}" title="${info.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </p> 
+                                `;
+            } else if (info.type === 'projectbox') {
+                moreinfoHTML += `<div class="projectBox">
+                                    <center>
+                                        <iframe class = "boxVideo" src="${info.src}" title="${info.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <p class="projectText">
+                                            <b>${info.header}</b>
+                                            <br> ${info.description} <i>(${project.technology})</i>
+                                            <ul>${info.work.map(item => `<li>${item}</li>`).join('')}</ul>
+                                        </p>
+                                    </center>
+                                </div>
+                                `;
+            }
         });
 
     } else {

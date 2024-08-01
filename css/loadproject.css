@@ -15,7 +15,7 @@
 	left: 0;
 	transform: translate(0, 0);
     transform: scale(1.2);
-    margin: 20px;
+    margin: 70px;
  }
 
  .projectImage {
@@ -23,6 +23,13 @@
 	width: 700px;
     height: auto;
     padding: 50px;
+}
+
+.boxVideo {
+    display: flex;
+	width: 500px;
+    height: 300px;
+    padding: 5px;
 }
 
 
