@@ -54,7 +54,12 @@ function createProjectHTML(project) {
     if(project.more_info !== undefined){
 
         project.more_info.forEach(info => {
-            if (info.type === 'image') {
+            if (info.type === 'section') {
+                moreinfoHTML += `<div class = "sectionHeader">
+                                    <div class = "title">${info.title}</div>
+	                                <div class = "subtitle">${info.subtitle}</div>
+                                </div>`;
+            } else if (info.type === 'image') {
               moreinfoHTML += `<p class="text">
                                   <img src="${info.path}" alt="${info.subtitle}">
                                   <br>
@@ -81,8 +86,7 @@ function createProjectHTML(project) {
                                     <center>
                                         <iframe class = "boxVideo" src="${info.src}" title="${info.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         <p class="projectText">
-                                            <b>${info.header}</b>
-                                            <br> ${info.description} <i>(${project.technology})</i>
+                                            ${info.description}
                                             <ul>${info.work.map(item => `<li>${item}</li>`).join('')}</ul>
                                         </p>
                                     </center>

@@ -17,10 +17,38 @@
             "Notebook and Passenger Queue System"
         ],
         "more_info": [
+            { "type": "text", "header": "Available Now!", "data": "<iframe src='https://store.steampowered.com/widget/2967460/' frameborder='0' width='646' height='190'></iframe>"},
             { "type": "video", "header": "Official Steam Store Trailer", "src": "https://www.youtube.com/embed/gmssdQquPD0", "title": "&quot;RED TREES RAIL. CO.&quot; Official Trailer"},
-            { "type": "text", "header": "4 L's Retrospective", "data": "<b>What did you LOVE about working on this game?</b><br> I loved the research part of the trip. I loved having people try our game out and go through a lot of emotions. I loved working as a team and everyone contributing in their own ways. I loved going from paper design to virtual reality. I love the fact that we have a proper store page, making it so much easier to share and explain what we have been working on to everyone. I love our logo, game name, and studio name as there was a lot of care into creating them.<br><br><b>What did you wish you had, you LONGED for?</b><br> I wish I had more time. There were a lot of things we had to cut out. I wish that some features existed in Unity and OpenXR, there were a lot of limitations and workarounds to get the results I wanted. I wish I had a laptop, working entirely on a desktop at home was tricky. With all the time I spent on campus and commuting back home, a laptop would have saved a lot of time. Playtests could have gone smoother as well because things would have been tested earlier.<br><br><b>What did you LOATHE, you wish you didn't have?</b><br>I wish I didn’t get pneumonia during the later part of the quarter. It really delayed things and we lost a couple weeks. I also loathed how we had to crunch so much. I loathe how long the steam reviewing process is. The unknown and the possibility of delays is very stressful.<br><br><b>What did you LEARN from this?</b><br>I didn’t realize how much I would learn about the parts of a steam train and what they do. I see things much differently everytime I look at a steam train. I learned a lot about the process of publishing a game. I learned how valuable playtests are to confirm a design is working or if there is a problem. I also learned the value of trying our game on different hardware, as there were a surprising number of bugs and compatibility issues despite having the same Windows OS and headset. I didn’t realize how intensive game development is in general. Now I understand why things get delayed in the video game industry so much."},
+            { "type": "text", "header": "Senior Capstone Post-Mortem | 4 L's Retrospective", "data": "<b>What did you LOVE about working on this game?</b><br> I loved the research part of the trip. I loved having people try our game out and go through a lot of emotions. I loved working as a team and everyone contributing in their own ways. I loved going from paper design to virtual reality. I love the fact that we have a proper store page, making it so much easier to share and explain what we have been working on to everyone. I love our logo, game name, and studio name as there was a lot of care into creating them.<br><br><b>What did you wish you had, you LONGED for?</b><br> I wish I had more time. There were a lot of things we had to cut out. I wish that some features existed in Unity and OpenXR, there were a lot of limitations and workarounds to get the results I wanted. I wish I had a laptop, working entirely on a desktop at home was tricky. With all the time I spent on campus and commuting back home, a laptop would have saved a lot of time. Playtests could have gone smoother as well because things would have been tested earlier.<br><br><b>What did you LOATHE, you wish you didn't have?</b><br>I wish I didn’t get pneumonia during the later part of the quarter. It really delayed things and we lost a couple weeks. I also loathed how we had to crunch so much. I loathe how long the steam reviewing process is. The unknown and the possibility of delays is very stressful.<br><br><b>What did you LEARN from this?</b><br>I didn’t realize how much I would learn about the parts of a steam train and what they do. I see things much differently everytime I look at a steam train. I learned a lot about the process of publishing a game. I learned how valuable playtests are to confirm a design is working or if there is a problem. I also learned the value of trying our game on different hardware, as there were a surprising number of bugs and compatibility issues despite having the same Windows OS and headset. I didn’t realize how intensive game development is in general. Now I understand why things get delayed in the video game industry so much."},
             { "type": "image", "path": "/projects/images/pages/RTRC-close.png", "subtitle" : "Steam Train Close Up"},
             { "type": "slides", "header": "Pitch Deck Slides", "src": "https://docs.google.com/presentation/d/e/2PACX-1vTqWzH1FyNNzbXkVyFVFg_ASgjvENfkpEC4bPu1mDZUn7hgyj889z2yLAo7Gu8XNYnKsOR6eVwtP_2V"} ,
+            { "type": "slides", "header": "Award(Design, Audio, Trailer, Tech.) Support Slides", "src": "https://docs.google.com/presentation/d/e/2PACX-1vTfVbO2YgHLnpvYpa02KnsZEJmp4gXm_yTN87EK3W3uZMkXl9Rb4SZmVIetApp4aeNEwU1pSKyRqzol"},
+            { "type": "section", "title": "Vertical Slice", "subtitle": "CMPM 171 Final"},
+            { "type": "projectbox",
+                "header": "STEAM 29", 
+                "src": "https://www.youtube.com/embed/yHLgqJzdlvY", 
+                "title": "Steam 29 Virtual Reality - Vertical Slice Long Play",
+                "description": "VR Vertical Slice",
+                "work": [
+                    "Integrating Past Prototype Knowledge",
+                    "Environment Modeling and Design",
+                    "Scripting and Implementation of Tutorial Scene"
+                ]
+            },
+            { "type": "section", "title": "HiFi Prototyping Phase", "subtitle": "Implementing Design into Game Engine"},
+            { "type": "section", "title": "", "subtitle": "Gameplay"},
+            { "type": "projectbox",
+                "header": "STEAM 29", 
+                "src": "https://www.youtube.com/embed/ts-FFuCIr1U", 
+                "title": "Steam 29 Virtual Reality - Control Demo",
+                "description": "VR Steam Control Prototype",
+                "work": [
+                    "General Design, Research and Function",
+                    "Modeling of Interfaces",
+                    "Scripting/Programming of Interface and Movement"
+                ]
+            },
+            { "type": "section", "title": "", "subtitle": "Splash Experience"},
             { "type": "projectbox",
                 "header": "STEAM 29", 
                 "src": "https://www.youtube.com/embed/oOmIeogY0AA", 
@@ -43,6 +71,7 @@
                     "Modeling of Objects and Environment"
                 ]
             },
+            { "type": "section", "title": "", "subtitle": "Scene Flow"},
             { "type": "projectbox",
                 "header": "STEAM 29", 
                 "src": "https://www.youtube.com/embed/GFI7nct4ULY", 
@@ -65,28 +94,6 @@
                     "Scripting of Events and Player Detection",
                     "Modeling of Objects and Environment",
                     "Flickering / Glitching of Train to represent Hallucinations"
-                ]
-            },
-            { "type": "projectbox",
-                "header": "STEAM 29", 
-                "src": "https://www.youtube.com/embed/ts-FFuCIr1U", 
-                "title": "Steam 29 Virtual Reality - Control Demo",
-                "description": "VR Steam Control Prototype",
-                "work": [
-                    "General Design, Research and Function",
-                    "Modeling of Interfaces",
-                    "Scripting/Programming of Interface and Movement"
-                ]
-            },
-            { "type": "projectbox",
-                "header": "STEAM 29", 
-                "src": "https://www.youtube.com/embed/yHLgqJzdlvY", 
-                "title": "Steam 29 Virtual Reality - Vertical Slice Long Play",
-                "description": "VR Vertical Slice",
-                "work": [
-                    "Integrating Past Prototype Knowledge",
-                    "Environment Modeling and Design",
-                    "Scripting and Implementation of Tutorial Scene"
                 ]
             }
         ]

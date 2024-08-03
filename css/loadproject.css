@@ -49,3 +49,7 @@
     width: 600px;
  }
 
+ .sectionHeader {
+    display: block;
+    width: 100%;
+ }
