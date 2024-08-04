@@ -23,7 +23,7 @@
             { "type": "image", "path": "/projects/images/pages/RTRC-close.png", "subtitle" : "Steam Train Close Up"},
             { "type": "slides", "header": "Pitch Deck Slides", "src": "https://docs.google.com/presentation/d/e/2PACX-1vTqWzH1FyNNzbXkVyFVFg_ASgjvENfkpEC4bPu1mDZUn7hgyj889z2yLAo7Gu8XNYnKsOR6eVwtP_2V"} ,
             { "type": "slides", "header": "Award(Design, Audio, Trailer, Tech.) Support Slides", "src": "https://docs.google.com/presentation/d/e/2PACX-1vTfVbO2YgHLnpvYpa02KnsZEJmp4gXm_yTN87EK3W3uZMkXl9Rb4SZmVIetApp4aeNEwU1pSKyRqzol"},
-            { "type": "section", "title": "Vertical Slice", "subtitle": "CMPM 171 Final"},
+            { "type": "section", "title": "Vertical Slice", "subtitle": "Demo of All Concepts"},
             { "type": "projectbox",
                 "header": "STEAM 29", 
                 "src": "https://www.youtube.com/embed/yHLgqJzdlvY", 
@@ -64,7 +64,7 @@
                 "header": "STEAM 29", 
                 "src": "https://www.youtube.com/embed/jIeJeq1NCnk", 
                 "title": "Steam29 Tutorial Book Demo",
-                "description": "VR Notebook Prototype",
+                "description": "VR Tutorial Prototype",
                 "work": [
                     "Notebook functionality and Programming",
                     "General Design and Function",
@@ -88,7 +88,7 @@
                 "header": "STEAM 29", 
                 "src": "https://www.youtube.com/embed/aUB7ooOfdZQ", 
                 "title": "Steam 29 Virtual Reality - Scare Demo",
-                "description": "VR Scare Prototype",
+                "description": "VR Scare Flow Prototype",
                 "work": [
                     "Created Animations",
                     "Scripting of Events and Player Detection",
