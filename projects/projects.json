@@ -282,6 +282,10 @@
             "Cartridge Animations",
             "Programmed \"Retro Games\" Mechanic",
             "This Game Trailer!"
+        ],
+        "more_info": [
+            { "type": "video", "header": "Retro-Active Game Trailer", "src": "https://www.youtube.com/embed/YhgDfn1uXgI", "title": "Retro-Active Game Trailer"},
+            { "type": "section", "title": "", "subtitle": "A ''Game within the game''-themed 2D Retro Handheld to 3D Platformer!"}
         ]
     },
 
