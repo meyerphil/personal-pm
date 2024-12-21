@@ -250,9 +250,11 @@
             "Shadow Interactions System"
         ],
         "more_info": [
+            { "type": "video", "header": "Shadow Cave VR Prototype", "src": "https://www.youtube.com/embed/uYddSZ4--6A", "title": "Shadow Cave VR Prototype"},
+            { "type": "section", "title": "", "subtitle": "Journey within a 2D Shadow World using 3D Hand-Tracking Shadow Figures!"},
             { "type": "text", "header": "What part did you do?", "data": "I did everything besides foundational things (Unity game engine, Oculus Integration). I did the 3D models, ray tracing, lighting, and level design."},
             { "type": "image", "path": "/projects/images/pages/cave.png", "subtitle" : "Initial Concept Design"},
-            { "type": "text", "header": "What skills does it demonstrate?", "data": "Concept Design, Level Design, System Design, Programming. I took inspiration from Greek philosopher Plato and his metaphorical story of a cave. I used that to develop a prototype for a game that utilizes hand tracking to create shadow puppets interacting with the shadow world in the cave. I created a gesture recognition system in code and utilized a ray tracing system to simulate interaction between shadows. I learned Blender to 3D model the shadow puppets (e.g., a pair of scissors). I also had to determine the types of actions the user could perform (e.g., cut string, create a shield)."},
+            { "type": "text", "header": "What skills does it demonstrate?", "data": "Concept Design, Level Design, System Design, Programming. <br><br>I took inspiration from Greek philosopher Plato and his metaphorical story of a cave. I used that to develop a prototype for a game that utilizes hand tracking to create shadow puppets interacting with the shadow world in the cave. <br><br>I created a gesture recognition system in code and utilized a ray tracing system to simulate interaction between shadows. I learned Blender to 3D model the shadow puppets (e.g., a pair of scissors). I also had to determine the types of actions the user could perform (e.g., cut string, create a shield)."},
             { "type": "image", "path": "/projects/images/pages/cave-gesture-diagram.png", "subtitle" : "Shadow Hand-Tracking Concept"},
             { "type": "image", "path": "/projects/images/pages/cave-level-design.png", "subtitle" : "Potential Level Design"},
             { "type": "image", "path": "/projects/images/pages/cave-level.png", "subtitle" : "Prototype Level with Obstacles"},
