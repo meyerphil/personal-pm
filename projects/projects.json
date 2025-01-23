@@ -285,7 +285,8 @@
         ],
         "more_info": [
             { "type": "video", "header": "Retro-Active Game Trailer", "src": "https://www.youtube.com/embed/YhgDfn1uXgI", "title": "Retro-Active Game Trailer"},
-            { "type": "section", "title": "", "subtitle": "A ''Game within the game''-themed 2D Retro Handheld to 3D Platformer!"}
+            { "type": "section", "title": "", "subtitle": "A ''Game within the game''-themed 2D Retro Handheld to 3D Platformer!"},
+            { "type": "text", "header": "Personal Reflection", "data": "Looking back at Retro-Active, I am very proud of each of our team members and what we were able to achieve. We have followed and fulfilled our concept nicely. It’s fun and creative. I feel it is the best completed game I have worked on so far, and it definitely has the best group work contribution too. Compared to other classes, it seems that only one person would construct the game, but all 5 of us had an active role in its creation. I would love to show off this game more.<br><br>Also thank you all for trusting the game concept, I hope it was as satisfying to see it come to life to you as it was for me."}
         ]
     },
 
