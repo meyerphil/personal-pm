@@ -272,7 +272,7 @@
         "image": "/projects/images/gameboy_break.png",
         "gif": "/projects/gifs/break-fp.gif",
         "title": "Retro-Active",
-        "description": "Published Game",
+        "description": "A ''Game within the game'' Platformer",
         "technology": "Unity",
         "published": "Itch.io",
         "playLink": "https://ichigo33.itch.io/retro-active",
@@ -285,8 +285,26 @@
         ],
         "more_info": [
             { "type": "video", "header": "Retro-Active Game Trailer", "src": "https://www.youtube.com/embed/YhgDfn1uXgI", "title": "Retro-Active Game Trailer"},
-            { "type": "section", "title": "", "subtitle": "A ''Game within the game''-themed 2D Retro Handheld to 3D Platformer!"},
-            { "type": "text", "header": "Personal Reflection", "data": "Looking back at Retro-Active, I am very proud of each of our team members and what we were able to achieve. We have followed and fulfilled our concept nicely. It’s fun and creative. I feel it is the best completed game I have worked on so far, and it definitely has the best group work contribution too. Compared to other classes, it seems that only one person would construct the game, but all 5 of us had an active role in its creation. I would love to show off this game more.<br><br>Also thank you all for trusting the game concept, I hope it was as satisfying to see it come to life to you as it was for me."}
+            { "type": "text", "header": "My Role", "data":"Proudly, I was the Team Lead of xX Dark Sk8rs Xx, the team behind 'Retro-Active'. In a team of five, we produced and publicly released a video game that allows for 2D retro games to interact with a 3D environment. <br><br>I overseered the overall design of the project and provided the team with solutions when needed. I implemented the main game mechanics using C# and Unity API features. I also did the cartridge animations."},
+            { "type": "text", "header": "Personal Reflection", "data": "Looking back at Retro-Active, I am very proud of each of our team members and what we were able to achieve. We have followed and fulfilled our concept nicely. It’s fun and creative. I feel it is the best completed game I have worked on so far, and it definitely has the best group work contribution too. Compared to other classes, it seems that only one person would construct the game, but all 5 of us had an active role in its creation. I would love to show off this game more.<br><br>Also thank you all for trusting the game concept, I hope it was as satisfying to see it come to life to you as it was for me."},
+            { "type": "text", "header": "My Pitch Ideas", "data":""},
+            { "type": "image", "path": "/projects/images/pages/retro-active/initial-pitch.png", "subtitle" : "My Initial Idea Pitch"},
+            { "type": "text", "header": "2D->3D Puzzle Ideas", "data":""},
+            { "type": "section", "title": "", "subtitle": "My 'Game within the Game' Mechanic"},
+            { "type": "video", "header": "Retro-Active", "src": "https://www.youtube.com/embed/kAfBP2pE8_c", "title": "Retro-Active | Wang Liao FPS and 2D Controllers"},
+            { "type": "text", "header": "Bringing the Idea to Life", "data":"The previous video demonstrates my teammate's work. <br><br> I took it on myself to merge both his 3D FPS Controller and his 2D Game Controller, as seen in the following video below. I merged the code and created a FSM(Full State Machine) to dictate whether the user controls the 3D player or the 2D player."},
+            { "type": "video", "header": "Retro-Active", "src": "https://www.youtube.com/embed/EvHy3i7TcPU", "title": "Retro-Active | Phil Merged Wang's Work"},
+            { "type": "section", "title": "", "subtitle": "My Animations"},
+            { "type": "video", "header": "Retro-Active", "src": "https://www.youtube.com/embed/ffnBTYJGUE0", "title": "Retro-Active | Phil's Cartridge Animation Progress"},
+            { "type": "text", "header": "Cartridge Animations", "data":"I wanted a bit more juice in the presentation of the 2D Game Cartridges, as they were the main focus and theme of the game. This video is an early proof-of-concept of the animations I wanted for the handheld. <br><br> Before, the cartridge was static within the handheld. After my contribution, cartridges now float and are inserted/ejected from the handheld. I also wanted the cartridges to spin in the air, awaiting for the player to grab it.<br><br> Below are gifs from the final product, showing my animation work and my 2D->3D mechanic in action."},
+            { "type": "image", "path": "/projects/images/pages/retro-active/grab-fp.gif", "subtitle" : "Grabbing Cartridge First Person"},
+            { "type": "image", "path": "/projects/images/pages/retro-active/grab-tp.gif", "subtitle" : "Grabbing Cartridge Third Person"},
+            { "type": "image", "path": "/projects/images/pages/retro-active/build-fp.gif", "subtitle" : "Building First Person"},
+            { "type": "image", "path": "/projects/images/pages/retro-active/build-tp.gif", "subtitle" : "Building Third Person"},
+            { "type": "image", "path": "/projects/images/pages/retro-active/break-fp.gif", "subtitle" : "Breaking First Person"},
+            { "type": "image", "path": "/projects/images/pages/retro-active/break-tp.gif", "subtitle" : "Breaking Third Person"},
+            { "type": "text", "header": "Cartridge Animations", "data":""},
+            { "type": "section", "title": "", "subtitle": "Award"}
         ]
     },
 
