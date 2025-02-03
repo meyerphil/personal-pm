@@ -568,7 +568,7 @@
             "Published to Itch.io"
         ],
          "more_info": [
-            { "type": "text", "header": "A Dual Narrative Design Process", "data": "-making splitscreen work in a limited game engine -end at the same or different time?"},
+            { "type": "text", "header": "A Dual Narrative Design Process", "data": "-making splitscreen work in a limited game engine -end at the same or different time?  -building hitboxes, overlap or underlap based on colision pos."},
             { "type": "image", "path": "/projects/images/pages/last-extraction/initial-test.png", "subtitle" : "First Splitscreen Prototype (WASD, Arrows for Controls)"},
 
             { "type": "text", "header": "Integrating Art and Design | Being The Only Programmer", "data": "-animations of players -building the environment"},
@@ -598,6 +598,27 @@
             },
             { "type": "projectbox",
             "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/U1I7Q4FlgqQ", 
+            "title": "The Last Extraction | novice room",
+            "description": "Novice's Room Progress",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Created the Starting Room Area for Novice"
+            ]
+            },
+            { "type": "image", "path": "/projects/images/pages/last-extraction/city-no-road.png", "subtitle" : "First Iteration of City(No road tiles)"},
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/WHLlR-vXtv8", 
+            "title": "The Last Extraction | city with roads",
+            "description": "Novice's City Progress",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Created the City Area for Novice"
+            ]
+            },
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
             "src": "https://www.youtube.com/embed/rXh_XwNYsy8", 
             "title": "The Last Extraction | vet mine progress",
             "description": "Veteran's Mine Progress",
@@ -607,6 +628,16 @@
             ]
             },
             { "type": "text", "header": "Dialog Development", "data": "-when to end conversation? -dialog system"},
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/S2_BhmbnVjA", 
+            "title": "The Last Extraction | what hapomn",
+            "description": "Veteran's Initial Dialog Test",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Added Dialog Ability for Veteran Character"
+            ]
+            },
             { "type": "text", "header": "Debugging through Teamwork", "data": "-fullscreen error -vet first, breaks game"}
          ]
     },
