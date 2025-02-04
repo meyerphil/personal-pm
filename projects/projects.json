@@ -568,8 +568,13 @@
             "Published to Itch.io"
         ],
          "more_info": [
-            { "type": "text", "header": "A Dual Narrative Design Process", "data": "-making splitscreen work in a limited game engine -end at the same or different time?  -building hitboxes, overlap or underlap based on colision pos."},
+            { "type": "video", "header": "The Last Extraction", "src": "https://www.youtube.com/embed/JLfOdZK2om8", "title": "The Last Extraction | Gameplay Demo"},
+            { "type": "text", "header": "A Dual Narrative Design Process", "data": "-making splitscreen work in a limited game engine -end at the same or different time?  -building hitboxes, overlap or underlap based on colision pos. -different movement speed among players, reflecting their differnces"},
             { "type": "image", "path": "/projects/images/pages/last-extraction/initial-test.png", "subtitle" : "First Splitscreen Prototype (WASD, Arrows for Controls)"},
+            { "type": "image", "path": "/projects/images/pages/last-extraction/t-meet.png", "subtitle" : "They Meet for the First Time - photo credit: Tau"},
+            { "type": "text", "header": "Team Supplied Feedback", "data": "-dialog is different towards each player? -end at same time(end when going back home)? -dialog stops when walking away or a few seconds(not good for slow readers/accessibility)?"},
+            
+            { "type": "section", "title": "", "subtitle": "Art"},
 
             { "type": "text", "header": "Integrating Art and Design | Being The Only Programmer", "data": "-animations of players -building the environment"},
             { "type": "image", "path": "/projects/images/pages/last-extraction/p-buildings.png", "subtitle" : "Initial Buildings Test"},
@@ -627,18 +632,46 @@
                 "Created the Starting Mine Area for Veteran"
             ]
             },
+            { "type": "section", "title": "", "subtitle": "Dialog"},
             { "type": "text", "header": "Dialog Development", "data": "-when to end conversation? -dialog system"},
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/4GeLxdYFl5M", 
+            "title": "The Last Extraction | novice dialog test",
+            "description": "Novice's Dialog Test",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Added Dialog Box",
+                "Added Portraits of Current Speaker",
+                "Dialog Sourced From File",
+                "Created Dialog 'Typing' Effect",
+                "Dialog Ability Completed for Novice Character"
+            ]
+            },
             { "type": "projectbox",
             "header": "The Last Extraction", 
             "src": "https://www.youtube.com/embed/S2_BhmbnVjA", 
             "title": "The Last Extraction | what hapomn",
             "description": "Veteran's Initial Dialog Test",
             "work": [
+                "Font Updated",
                 "Used Artist-supplied Sprites/Tiles",
                 "Added Dialog Ability for Veteran Character"
             ]
             },
-            { "type": "text", "header": "Debugging through Teamwork", "data": "-fullscreen error -vet first, breaks game"}
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/4Y6q_LpTEEs", 
+            "title": "The Last Extraction | dual dialog",
+            "description": "Dual Dialog Demonstration",
+            "work": [
+                "Both Players can Initiate Dialog",
+                "One Player to Speak to NPC at a Time",
+                "Fullscreen Option(Full HD) Added"
+            ]
+            },
+            { "type": "section", "title": "", "subtitle": "Debugging"},
+            { "type": "text", "header": "Debugging through Teamwork", "data": "-nov enters mines, no screen change until vet also enters -vet enters desert first, stuck until novice enters.(scene/camera initiating/updating due to players changing areas ERRORS) -players aren't posiioned where they entered(appear in their prev. locations) -novice can't go back to house(design choice, unreachable anyways)  -found random square in desert that breaks game if either interacts(fixed desert interactables) -fullscreen error, scaling is all off. Dialog boxes cut off. Doesn't revert from FS properly. "}
          ]
     },
     
