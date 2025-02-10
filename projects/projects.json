@@ -590,12 +590,8 @@
             { "type": "image", "path": "/projects/images/pages/last-extraction/t-meet.png", "subtitle" : "They Meet for the First Time - photo credit: Tau"},
             { "type": "text", "header": "They Finally Meet", "data": "The second iteration meant creating separate scenes for each character. <br><br> I had two exclusive scenes, and a third scene where they could meet at the same time. This meant one player had to initialize the shared scene(if it wasn’t loaded yet), then the next player would load into the shared scene instance.<br><br>This required a lot of scripting for things like cameras and characters to initialize and load just right."},
 
-            { "type": "section", "title": "", "subtitle": "Art"},
+            { "type": "section", "title": "Integrating Art and Design", "subtitle": "Being The Only Programmer"},
 
-            { "type": "text", "header": "Integrating Art and Design | Being The Only Programmer", "data": "-animations of players -building the environment"},
-            { "type": "image", "path": "/projects/images/pages/last-extraction/p-buildings.png", "subtitle" : "Initial Buildings Test"},
-            { "type": "text", "header": "Building Problems", "data": "Players could walk through buildings and objects, so I had to add hitboxes to them.<br><br> I devised a script that stops player movement upon collision with objects. I also had to determine whether the player sprite would overlap or underlap an object based on the collision position. <br><br>This took a lot of fine-tuning, it isn't perfect but it gets the job done."},
-            { "type": "image", "path": "/projects/images/pages/last-extraction/p-tiles.png", "subtitle" : "How the World is Built(100px by 100px tiles)"},
             { "type": "text", "header": "Walking", "data": "I had to also implement the walking animation sprite sheets into each character controller. This took some back-and-forth communication with one of the artists to ensure the assets were formatted correctly.<br><br>I also gave different movement speed among players, further reflecting their differences.<br><br> This later became a notable feature, as we have received positive feedback from a friend who played our game."},
             { "type": "projectbox",
             "header": "The Last Extraction", 
@@ -619,38 +615,8 @@
                 "Updated 2D Controller to trigger Anim."
             ]
             },
-            { "type": "projectbox",
-            "header": "The Last Extraction", 
-            "src": "https://www.youtube.com/embed/U1I7Q4FlgqQ", 
-            "title": "The Last Extraction | novice room",
-            "description": "Novice's Room Progress",
-            "work": [
-                "Used Artist-supplied Sprites/Tiles",
-                "Created the Starting Room Area for Novice"
-            ]
-            },
-            { "type": "image", "path": "/projects/images/pages/last-extraction/city-no-road.png", "subtitle" : "First Iteration of City(No road tiles)"},
-            { "type": "projectbox",
-            "header": "The Last Extraction", 
-            "src": "https://www.youtube.com/embed/WHLlR-vXtv8", 
-            "title": "The Last Extraction | city with roads",
-            "description": "Novice's City Progress",
-            "work": [
-                "Used Artist-supplied Sprites/Tiles",
-                "Created the City Area for Novice"
-            ]
-            },
-            { "type": "projectbox",
-            "header": "The Last Extraction", 
-            "src": "https://www.youtube.com/embed/rXh_XwNYsy8", 
-            "title": "The Last Extraction | vet mine progress",
-            "description": "Veteran's Mine Progress",
-            "work": [
-                "Used Artist-supplied Sprites/Tiles",
-                "Created the Starting Mine Area for Veteran"
-            ]
-            },
-            { "type": "section", "title": "", "subtitle": "Dialog"},
+
+            { "type": "section", "title": "", "subtitle": "Dual Dialog"},
             { "type": "text", "header": "Dialog Development", "data": "The next step was adding NPCs and dialog. <br><br> I asked my team if the dialog is different towards each player? I also asked them if the dialog stops when the player walks away or the dialog stays for a few seconds(not good for slow readers/accessibility)?<br><br>As a result, I added dual dialog boxes and dialog conversations catered specifically to each player. For accessibility reasons, I have decided that a player’s conversation would start, progress, and end using the interaction key."},
             { "type": "projectbox",
             "header": "The Last Extraction", 
@@ -688,8 +654,50 @@
                 "Fullscreen Option(Full HD) Added"
             ]
             },
-            { "type": "section", "title": "", "subtitle": "Debugging"},
-            { "type": "text", "header": "Debugging through Teamwork", "data": "-nov enters mines, no screen change until vet also enters -vet enters desert first, stuck until novice enters.(scene/camera initiating/updating due to players changing areas ERRORS) -players aren't posiioned where they entered(appear in their prev. locations) -novice can't go back to house(design choice, unreachable anyways)  -found random square in desert that breaks game if either interacts(fixed desert interactables) -fullscreen error, scaling is all off. Dialog boxes cut off. Doesn't revert from FS properly. "}
+            { "type": "section", "title": "", "subtitle": "Buildings and Objects"},
+
+            { "type": "image", "path": "/projects/images/pages/last-extraction/p-buildings.png", "subtitle" : "Initial Buildings Test"},
+            { "type": "text", "header": "Building Problems", "data": "Players could walk through buildings and objects, so I had to add hitboxes to them.<br><br> I devised a script that stops player movement upon collision with objects. I also had to determine whether the player sprite would overlap or underlap an object based on the collision position. <br><br>This took a lot of fine-tuning, it isn't perfect but it gets the job done."},
+            { "type": "image", "path": "/projects/images/pages/last-extraction/p-tiles.png", "subtitle" : "How the World is Built(100px by 100px tiles)"},
+
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/U1I7Q4FlgqQ", 
+            "title": "The Last Extraction | novice room",
+            "description": "Novice's Room Progress",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Created the Starting Room Area for Novice"
+            ]
+            },
+            { "type": "image", "path": "/projects/images/pages/last-extraction/city-no-road.png", "subtitle" : "First Iteration of City(No road tiles)"},
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/WHLlR-vXtv8", 
+            "title": "The Last Extraction | city with roads",
+            "description": "Novice's City Progress",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Created the City Area for Novice"
+            ]
+            },
+            { "type": "projectbox",
+            "header": "The Last Extraction", 
+            "src": "https://www.youtube.com/embed/rXh_XwNYsy8", 
+            "title": "The Last Extraction | vet mine progress",
+            "description": "Veteran's Mine Progress",
+            "work": [
+                "Used Artist-supplied Sprites/Tiles",
+                "Created the Starting Mine Area for Veteran"
+            ]
+            },
+
+            { "type": "section", "title": "", "subtitle": "Final Touches"},
+            { "type": "text", "header": "Debugging through Teamwork", "data": "The next iteration was more fine tuning and debugging after some playtests. <br><br> Here are some final moments driven by teamwork:"},
+            { "type": "text", "header": "A Big Bug in the Mines", "data": "A significant bug was found, where a player could not enter the mines unless the other player also entered with them.<br><br>I determined that players could enter areas, but the issue was reloading a scene that a player has exited. I had to update my scene script to unload players and cameras.<br><br>This required an overhaul of how shared scenes are built. I not only scripted a more robust initialization/continuation process, but a new deinitialization process."},
+            { "type": "text", "header": "Other Issues Found By Team", "data": "Players weren’t sent to the right spot when entering a new scene. I decided to keep track of their previous scene location and have them positioned in the new scene from where they left(next to the previous scene entrance).<br><br>Issues also occurred in the desert region between the city and town.<br><br>The novice couldn’t go back to their house and there was a random square in the desert that broke the game if either player interacted with it.<br><br>I fixed both doors and desert interactables rather quickly."},
+            { "type": "text", "header": "Visual Trouble", "data": "One visual error was the fullscreen button I added. For two of my teammates, scaling was all off and dialog boxes were cut off. The game also didn’t revert back from fullscreen properly.<br><br>I could not solve this bug, however I do believe it is due to browser scaling, as zooming out on the page is a potential solution. I could probably adapt a script for resolution (1920x1080 seems to only work)."},
+            { "type": "text", "header": "The Ending(s)", "data": "Finishing up, I asked my team if the game were to end at the same time or separately(end when going back home)? We felt that seperate would make more sense.<br><br>In my final iteration I added independent endings, for each player to end their side of the story at their own pace."}
          ]
     },
     
