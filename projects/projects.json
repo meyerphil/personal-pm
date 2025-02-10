@@ -583,16 +583,20 @@
         ],
          "more_info": [
             { "type": "video", "header": "The Last Extraction", "src": "https://www.youtube.com/embed/JLfOdZK2om8", "title": "The Last Extraction | Gameplay Demo"},
-            { "type": "text", "header": "A Dual Narrative Design Process", "data": "-making splitscreen work in a limited game engine -end at the same or different time?  -building hitboxes, overlap or underlap based on colision pos. -different movement speed among players, reflecting their differnces"},
+            { "type": "text", "header": "My Role", "data": "In a team of 4, I was the programmer. I would take feedback from my team and conduct debugging.<br><br>Our team chose “Uncanny Mutation” as our theme.<br><br>There are radioactive rocks that glow purple. An aboveground community harvests these rocks,  however they undergo strong effects of the radiation. As a result, the people and the plants can be seen with mutations.<br><br>An underground community uses these rocks for a variety of needs, however they chose to stay ignorant of the harmful effects.<br><br>We wanted a dual narrative approach to address this theme, what better way to do it than with a split screen setup that shows two different sides of the world."},
+            { "type": "text", "header": "From Idea to Reality", "data": "The idea of splitscreen was loosely thrown around, we had no idea if it was even possible or feasible to implement. As the programmer, I took it upon myself to bring that idea to life. <br><br> I decided to use Phaser, a browser-based JS game engine. We were supposed to learn it in the co-enrolled class, however I wanted to teach myself the game engine weeks early, giving myself an edge in learning.<br><br>I remember presenting The Last Extraction to the class. I heard awes of wonder as they watched two players play through the game at the same time. <br><br> At this point, every student has learned Phaser in our other class, so they had a general idea of the limitations of the game engine. <br><br> A student asked me a question, “How difficult was it to get splitscreen to work?” <br><br> I remember laughing and looking at the ground. <br><br> I told him, “Way too hard.” <br><br> The professor nodded and everyone understood the achievement of my work. Our team felt that much sweeter and satisfied with our final project."},
             { "type": "image", "path": "/projects/images/pages/last-extraction/initial-test.png", "subtitle" : "First Splitscreen Prototype (WASD, Arrows for Controls)"},
+            { "type": "text", "header": "Split-Screen and Two Characters", "data": "Through many trials and errors that required multiple all-nighters and headaches, the game was complete.<br><br>I started with a basic prototype. I had two goals:<br><br> - Create two characters that can be independently controlled by two players.<br><br> - To see if I could create two separate cameras that could follow each character. I ensured each camera only occupied half of the screen."},
             { "type": "image", "path": "/projects/images/pages/last-extraction/t-meet.png", "subtitle" : "They Meet for the First Time - photo credit: Tau"},
-            { "type": "text", "header": "Team Supplied Feedback", "data": "-dialog is different towards each player? -end at same time(end when going back home)? -dialog stops when walking away or a few seconds(not good for slow readers/accessibility)?"},
-            
+            { "type": "text", "header": "They Finally Meet", "data": "The second iteration meant creating separate scenes for each character. <br><br> I had two exclusive scenes, and a third scene where they could meet at the same time. This meant one player had to initialize the shared scene(if it wasn’t loaded yet), then the next player would load into the shared scene instance.<br><br>This required a lot of scripting for things like cameras and characters to initialize and load just right."},
+
             { "type": "section", "title": "", "subtitle": "Art"},
 
             { "type": "text", "header": "Integrating Art and Design | Being The Only Programmer", "data": "-animations of players -building the environment"},
             { "type": "image", "path": "/projects/images/pages/last-extraction/p-buildings.png", "subtitle" : "Initial Buildings Test"},
+            { "type": "text", "header": "Building Problems", "data": "Players could walk through buildings and objects, so I had to add hitboxes to them.<br><br> I devised a script that stops player movement upon collision with objects. I also had to determine whether the player sprite would overlap or underlap an object based on the collision position. <br><br>This took a lot of fine-tuning, it isn't perfect but it gets the job done."},
             { "type": "image", "path": "/projects/images/pages/last-extraction/p-tiles.png", "subtitle" : "How the World is Built(100px by 100px tiles)"},
+            { "type": "text", "header": "Walking", "data": "I had to also implement the walking animation sprite sheets into each character controller. This took some back-and-forth communication with one of the artists to ensure the assets were formatted correctly.<br><br>I also gave different movement speed among players, further reflecting their differences.<br><br> This later became a notable feature, as we have received positive feedback from a friend who played our game."},
             { "type": "projectbox",
             "header": "The Last Extraction", 
             "src": "https://www.youtube.com/embed/DLiuR3FZWYc", 
@@ -647,7 +651,7 @@
             ]
             },
             { "type": "section", "title": "", "subtitle": "Dialog"},
-            { "type": "text", "header": "Dialog Development", "data": "-when to end conversation? -dialog system"},
+            { "type": "text", "header": "Dialog Development", "data": "The next step was adding NPCs and dialog. <br><br> I asked my team if the dialog is different towards each player? I also asked them if the dialog stops when the player walks away or the dialog stays for a few seconds(not good for slow readers/accessibility)?<br><br>As a result, I added dual dialog boxes and dialog conversations catered specifically to each player. For accessibility reasons, I have decided that a player’s conversation would start, progress, and end using the interaction key."},
             { "type": "projectbox",
             "header": "The Last Extraction", 
             "src": "https://www.youtube.com/embed/4GeLxdYFl5M", 
