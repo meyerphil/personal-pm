@@ -548,6 +548,20 @@
             "Integrated Art Assets to create Dynamic UI",
             "JSON-driven Tutorial with Video Example",
             "Used Browser Cookie to save music setting"
+        ],
+        "more_info": [
+            { "type": "video", "header": "Star Surf Sushi", "src": "https://www.youtube.com/embed/ljOBJqWgxPo", "title": "Star Surf Sushi | gameplayExample"},
+            { "type": "text", "header": "My Role", "data": "In a team of three, my role in 'Star Surf Sushi' was Testing Lead. <br><br>After a small prototype was created by my teammate, I took over the project and implemented most of the features. I was responsible for combining all of our prototypes. I also integrated the art assets."},
+            { "type": "image", "path": "/projects/images/pages/star-surf-sushi/game-init.png", "subtitle" : "Initial Prototype I Took Over"},
+            { "type": "text", "header": "My Work", "data": "I implemented the Sushi Recipes, allowing for customers to order a variety of menu items and for players to create different combinations of ingredients. I added day-to-day progression, such as ingredient supply and total cash amount. <br><br>There are also statistics(correct/incorrect/timeout orders) presented to the player, emphasizing the importance of being fast and attentive when running the sushi shop."},
+            { "type": "image", "path": "/projects/images/pages/star-surf-sushi/game-final.png", "subtitle" : "My Final Kitchen Iteration"},
+            { "type": "text", "header": "My Ideas", "data": "I decided to also add some of my own ideas, such as making the current dish draggable to the customer or draggable to a newly added trash can. <br><br> Why did I add a trash can? I was thinking if we have a basic rating system, your rating/score goes down if you give the wrong order. It would incentivize you to catch your mistakes before serving the food and to throw away the wrong dish in the trash(at the cost of wasting resources of course). <br><br> Another idea of mine was an in-game tutorial. Since the player is running a sushi shop on a planet that doesn’t speak English, figuring out how to play won’t come naturally. As a result, I added a text tutorial(driven by a JSON file) for contextualization and instructions. If that isn’t enough, I also added a video of example gameplay."},
+            { "type": "image", "path": "/projects/images/pages/star-surf-sushi/tutorial-final.png", "subtitle" : "First Page of Tutorial"},
+            { "type": "image", "path": "/projects/images/pages/star-surf-sushi/shop-init.png", "subtitle" : "Initial End Of Day Screen"},
+            { "type": "text", "header": "End Of Day", "data": "I created the End of Day Result screen, showing the current stock and money earned. This screen allows players to order ingredients(if sufficient funds are available) to stock up for the next day. <br><br> The player can either start the next day or quit to the main menu, where they can click ‘continue’ to resume their sushi career. <br><br> Using custom art assets(.png’s) representing each numerical(0-9) digit, I scripted a functional numerical system/font that can be seen below:"},
+            { "type": "image", "path": "/projects/images/pages/star-surf-sushi/shop-final.png", "subtitle" : "Final End Of Day Screen"},
+            { "type": "text", "header": "The Small Things", "data": "I also ensured the Browser Cookie to save the music setting(muted/unmuted) worked. So if one were to come back to play the game at a later date, their sound setting would be saved(may extend this to shop progression too). <br><br> I added some procedurally generated sounds to satisfy one of the assignment requirements."},
+            { "type": "image", "path": "/projects/images/pages/star-surf-sushi/settings-final.png", "subtitle" : "Settings Page"}
         ]
     },
 
