@@ -92,6 +92,10 @@ function createProjectHTML(project) {
                                     </center>
                                 </div>
                                 `;
+            } else if (info.type === 'div') {
+                moreinfoHTML += `
+                                ${info.data}
+                                `;
             }
         });
 

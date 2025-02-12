@@ -56,6 +56,9 @@ body {
 	margin: 50px;
 	font-size: 25px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
 
  .mainbody {
@@ -142,11 +145,10 @@ body {
 @media screen and (max-width: 700px) {
 
   .steam-scale {
-    transform: scale(0.7); /* Adjust the scale factor as needed */
-    transform-origin: top left; /* Keeps the scaling origin at the top-left corner */
+    transform: scale(0.65); /* Adjust the scale factor as needed */
     width: 646px; /* Original width of the container */
     height: 190px; /* Original height of the container */
-    overflow: hidden; /* Ensure no overflow issues */
+
   }
 
   /* new 2/10/25 */
