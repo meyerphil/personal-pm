@@ -48,16 +48,24 @@
 
  @media screen and (max-width: 700px) {
 
-
   .text img {
 	width: 370px;
   }
 
-
+  .boxVideo {
+    width: 400px;
+    height: 240px;
+}
+  
 }
 
 @media screen and (max-width: 420px) {
     .text img {
         width: 300px;
+    }
+
+    .boxVideo {
+        width: 300px;
+        height: 180px;
     }
 }
