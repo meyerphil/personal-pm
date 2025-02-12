@@ -96,6 +96,7 @@
             { "type": "slides", "header": "Pitch Deck Slides", "src": "https://docs.google.com/presentation/d/e/2PACX-1vTqWzH1FyNNzbXkVyFVFg_ASgjvENfkpEC4bPu1mDZUn7hgyj889z2yLAo7Gu8XNYnKsOR6eVwtP_2V"} ,
             { "type": "slides", "header": "Award(Design, Audio, Trailer, Tech.) Support Slides", "src": "https://docs.google.com/presentation/d/e/2PACX-1vTfVbO2YgHLnpvYpa02KnsZEJmp4gXm_yTN87EK3W3uZMkXl9Rb4SZmVIetApp4aeNEwU1pSKyRqzol"},
             { "type": "section", "title": "Vertical Slice", "subtitle": "Demo of All Concepts"},
+            { "type": "image", "path": "/images/banner.png", "subtitle" : "<a href = 'https://riseagain1.github.io/Steam29/'>Vertical Slice Static Web Page</a>(banner shown)"},
             { "type": "projectbox",
                 "header": "STEAM 29", 
                 "src": "https://www.youtube.com/embed/yHLgqJzdlvY", 

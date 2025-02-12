@@ -17,6 +17,56 @@ body {
 
 }
 
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 45px;
+}
+
+/* adding banner 2/11/25 */
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-shadow:            
+  -1px -1px 2px #000,  
+  1px -1px 2px #000,
+  -1px  1px 2px #000,
+  1px  1px 2px #000;
+  font-weight: bold;
+}
+
+.text {
+	background-color: #e4e4e4; 
+	padding: 20px;
+	margin: 50px;
+	font-size: 25px;
+
+ }
+
+ .mainbody {
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+  flex-wrap: wrap;
+
+ }
+
+/*end*/
+
 .background-image{
   background-image: url('/images/building.jpg');
   filter: brightness(60%) blur(3px); 
@@ -31,12 +81,6 @@ body {
   height: 100%;
   z-index: -1;
 }
-
-/* Increase the font size of the <h1> element */
-.header h1 {
-  font-size: 45px;
-}
-
 
 
 .menubutton {
@@ -85,56 +129,9 @@ body {
   color: black; /* Black text color */
 }
 
-
-
-
-
 /* Ensure proper sizing */
 * {
   box-sizing: border-box;
-}
-
-/* Column container */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px;
-}
-
-.footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #e4e4e4; /* Grey background */
-  margin: 10px;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 20%; /* Set the width of the sidebar */
-  background-color: #e4e4e4; /* Grey background color */
-  padding: 20px; /* Some padding */
-}
-
-/* Main column */
-.main {
-  flex: 80%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
-  font-size: 40px;
-  width: 100%;
-}
-
-.frontImage {
-  display: block;
-  margin: 0 auto;
-  width: 70%;
-  padding: 10px;
-}
-
-.mainBody {
-  text-align: center;
-  font-size: 25px;
 }
 
 
@@ -142,9 +139,6 @@ body {
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
 
   .steam-scale {
     transform: scale(0.5); /* Adjust the scale factor as needed */
@@ -153,6 +147,15 @@ body {
     height: 190px; /* Original height of the container */
     overflow: hidden; /* Ensure no overflow issues */
   }
+
+  /* new 2/10/25 */
+  
+  .text {
+    width: 90%;
+  }
+
+    /* end */
+  
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -165,16 +168,11 @@ body {
   .main {
     font-size: 30px;
   }
-
-
-  .mainBody {
-    font-size: 17px;
-  }
   
   .navbar div {
-	max-height:0px;
-	overflow:hidden;
-	transition:0.5s;
+    max-height:0px;
+    overflow:hidden;
+    transition:0.5s;
   }
   
   .menubutton {
@@ -189,8 +187,19 @@ body {
     padding-bottom: 10px !important;
   }
 
-  .frontImage {
-    width: 100% !important;
-    padding: 5px;
+
+  /* new 2/10/25 */
+
+  .banner-text {
+    font-size: 2rem;
   }
+
+  .text {
+    font-size: 17px;
+  }
+
+
+
+  /* end */
+
 }
