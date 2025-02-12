@@ -34,10 +34,6 @@
 
 
  .text {
-	background-color: #e4e4e4; 
-	padding: 20px;
-	margin: 50px;
-	font-size: 23px;
 	width: 700px;
 
     display: flex;
@@ -53,3 +49,19 @@
     display: block;
     width: 100%;
  }
+
+ @media screen and (max-width: 700px) {
+
+
+  .text img {
+	width: 370px;
+  }
+
+
+}
+
+@media screen and (max-width: 420px) {
+    .text img {
+        width: 300px;
+    }
+}
