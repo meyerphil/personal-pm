@@ -26,6 +26,7 @@ body {
 .banner {
   position: relative;
   width: 100%;
+  margin-top: 60px;
 }
 
 .banner img {
@@ -141,7 +142,7 @@ body {
 @media screen and (max-width: 700px) {
 
   .steam-scale {
-    transform: scale(0.5); /* Adjust the scale factor as needed */
+    transform: scale(0.7); /* Adjust the scale factor as needed */
     transform-origin: top left; /* Keeps the scaling origin at the top-left corner */
     width: 646px; /* Original width of the container */
     height: 190px; /* Original height of the container */
@@ -198,6 +199,9 @@ body {
     font-size: 17px;
   }
 
+  .steam-scale {
+    transform: scale(0.5); /* Adjust the scale factor as needed */
+  }
 
 
   /* end */
