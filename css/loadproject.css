@@ -41,9 +41,24 @@
     width: 600px;
  }
 
+ .text:has(img) {
+    width: initial;
+}
+
  .sectionHeader {
     display: block;
     width: 100%;
+ }
+
+ @media screen and (max-width: 1000px) {
+    .video iframe {
+        width: 90vw;  /* 90% of the viewport width */
+        height: auto;  /* Adjust height dynamically */
+        max-width: 100%; /* Prevent overflow */
+        aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+    }
+
+    
  }
 
  @media screen and (max-width: 700px) {

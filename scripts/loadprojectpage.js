@@ -77,9 +77,9 @@ function createProjectHTML(project) {
                                     
                                  </p>`;
             } else if (info.type === 'video') {
-                moreinfoHTML += `<p>
+                moreinfoHTML += `<div class="video">
                                     <iframe width="1000" height="600" src="${info.src}" title="${info.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </p> 
+                                </div> 
                                 `;
             } else if (info.type === 'projectbox') {
                 moreinfoHTML += `<div class="projectBox">
