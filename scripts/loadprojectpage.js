@@ -73,7 +73,7 @@ function createProjectHTML(project) {
             } else if (info.type === 'slides') {
                 moreinfoHTML += `<p class="text">
                                     <b>${info.header}</b>
-                                    <br><iframe src="${info.src}/embed?start=false&loop=true&delayms=5000" frameborder="0" width="685" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                    <br><iframe class = "slides" src="${info.src}/embed?start=false&loop=true&delayms=5000" frameborder="0" width="685" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                     
                                  </p>`;
             } else if (info.type === 'video') {

@@ -45,6 +45,7 @@
     width: initial;
 }
 
+
  .sectionHeader {
     display: block;
     width: 100%;
@@ -56,6 +57,12 @@
         height: auto;  /* Adjust height dynamically */
         max-width: 100%; /* Prevent overflow */
         aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+    }
+
+    .slides {
+        height: auto;  /* Adjust height dynamically */
+        max-width: 100%; /* Prevent overflow */
+        aspect-ratio: 16 / 11; /* Maintain video aspect ratio */
     }
 
     
